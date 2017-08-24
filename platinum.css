@@ -228,6 +228,15 @@ form input[type=submit] {
 	text-transform: uppercase;
 	line-height: 1.5vw;
 }
+.text label{
+	color: rgb(130, 130, 130);
+	font-weight: 600;
+	font-family: "Roboto", sans-serif;
+	font-size: 1vw;
+	font-style: italic;
+	text-transform: uppercase;
+	line-height: 1.5vw;
+}
 .text_order{
 	padding-top: 2.5vw;
     text-align: center;
@@ -247,6 +256,16 @@ form input[type=submit] {
     font-style: normal;
     text-transform: capitalize;
     line-height: 1.5vw;
+}
+.wpcf7-date{
+	font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #b88b03;
+    background-color: rgba(0,0,0,0.6);
+    border: none;
+    padding: 5px 5px;
+    width: 10vw;
+    margin-left: 0.5vw;
 }
 /**/
 #main{

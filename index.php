@@ -23,8 +23,6 @@
 		mail($to, $subject, $message, $headers);
 
 	}
-
-	echo "!!!!!!!!"
 ?>
 
 <html>
@@ -203,19 +201,19 @@
 								
 						<div class="block2 column">
 							<div class="text">
-								<a> C: <span class="inputs"><input type="date" name="datefrom" class="wpcf7-date" placeholder="dd/mm/yyyy" style="width: 58vw;"></span></a>
+								<a> C:   <span class="inputs"><input type="date" name="datefrom" class="wpcf7-date" placeholder="dd/mm/yyyy" style="width: 58vw;"></span></a>
 							</div>
 						</div>
 
 						<div class="block2 column">
 							<div class="text">
-								<a> Do: <span class="inputs"><input type="date" name="dateto" class="wpcf7-date" placeholder="dd/mm/yyyy" style="width: 56vw;"></span></a>
+								<a class="text"> Do:   <span class="inputs"><input type="date" name="dateto" class="wpcf7-date" placeholder="dd/mm/yyyy" style="width: 56vw;"></span></a>
 							</div>
 						</div>
 
 						<div class="block3 column">
 							<div class="text">
-								<a>Сколько людей: <span class="inputs"><input type="text" name="people" class="wpcf7-date" placeholder="people" style="width: 33vw;"></span></a>
+								<a class="text">Сколько людей: <span class="inputs"><input type="text" name="people" class="wpcf7-date" placeholder="people" style="width: 33vw;"></span></a>
 							</div>
 						</div>
 						
