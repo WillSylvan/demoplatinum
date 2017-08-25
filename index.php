@@ -154,7 +154,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="platinum.css">
 		<link rel="stylesheet" type="text/css" href="platinum_mobile.css">
-		<!-- <script src="js/jquery-3.2.1.min.js"></script> -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
+		 <script src="js/jquery-3.2.1.min.js"></script> 
+		 <script type="" src="js/content.js"></script>
     	<title>platinum travel</title>
 		
 		
@@ -478,7 +480,20 @@
 								сакура в цвету, великолепные<br>
 								пляжи островов Окинава и<br>
 								древние памятники синтоизма<br></p>
-								<button class="book_a_tour">book a tour</button>
+								<button class="book_a_tour" dir="left">book a tour</button>
+							</div>
+							<div class="hiden_form ">
+								<div class="hidde"></div>
+								<form class="flex">
+									<input type="text" name="name" placeholder="NAME:">
+									<input type="text" name="phone" placeholder="TEL.">
+									<input type="text" name="email" placeholder="EMAIL:">
+									<input type="hidden" name="datefrom" value="-">
+									<input type="hidden" name="dateto" value="-">
+									<input type="hidden" name="place" value="Japan">
+
+									<input type="submit" value="Send" name="submit" >
+								</form>
 							</div>
 						</div>
 						<div class="photo photo_2"></div>
@@ -495,11 +510,25 @@
 								сабланка, отдых в Эс-Сувейре и<br>
 								Агадире, колоритные базары и<br>
 								восхитительная кухня</span><br></p>
-								<button class="book_a_tour">book a tour</button>
+								<button class="book_a_tour" dir="left">book a tour</button>
+							</div>
+							<div class="hiden_form ">
+								<div class="hidde"></div>
+								<form class="flex">
+									<input type="text" name="name" placeholder="NAME:">
+									<input type="text" name="phone" placeholder="TEL.">
+									<input type="text" name="email" placeholder="EMAIL:">
+									<input type="hidden" name="datefrom" value="-">
+									<input type="hidden" name="dateto" value="-">
+									<input type="hidden" name="place" value="Japan">
+
+									<input type="submit" value="Send" name="submit" >
+								</form>
 							</div>
 							<div id="trim_4"></div>
 						</div>
 						<div class="photo photo_6"></div>
+						
 					</div>
 					
 					<div class="block_why_us">
