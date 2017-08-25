@@ -231,6 +231,27 @@
             	});
          	});
       	</script>
+		<script>
+         	$(function() {
+            	$( "#datepicker-12" ).datepicker({
+					minDate: 0,
+					changeMonth:true,
+					changeYear:true,
+					numberOfMonths:[1,1]
+            	});
+         	});
+      	</script>
+
+		  <script>
+         	$(function() {
+            	$( "#datepicker-13" ).datepicker({
+					minDate: 0,
+					changeMonth:true,
+					changeYear:true,
+					numberOfMonths:[1,1]
+            	});
+         	});
+      	</script>
 
 
 	</head>
@@ -358,7 +379,7 @@
 								
 						<div class="block2 column">
 						<div class="text">
-							<label>C:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['datefrom']) && $errors['datefrom'] == 0 ){ echo $_POST['datefrom']; } ?>" name="datefrom" type = "text" readonly="readonly" id = "datepicker-10"></spam>
+							<label>C:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['datefrom']) && $errors['datefrom'] == 0 ){ echo $_POST['datefrom']; } ?>" name="datefrom" type = "text" readonly="readonly" id = "datepicker-12"></spam>
 						</div>
 
 						<?php echo ($error_message_df); ?>
@@ -367,7 +388,7 @@
 
 					<div class="block2 column">
 						<div class="text">
-							<label>Do:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-11"></spam>
+							<label>Do:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-13"></spam>
 						</div>
 
 						<?php echo ($error_message_dt); ?>
