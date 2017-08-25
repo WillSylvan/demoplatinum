@@ -154,7 +154,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="platinum.css">
 		<link rel="stylesheet" type="text/css" href="platinum_mobile.css">
-		<script src="js/jquery-3.2.1.min.js"></script>
+		<!-- <script src="js/jquery-3.2.1.min.js"></script> -->
     	<title>platinum travel</title>
 		
 		
@@ -340,53 +340,81 @@
 			</div>
 		
 			<div id="mobile_form">
+			
 				<div class="mobile_form">
+				
 					<form id="form" name="orderform" method="post" action="index.php">
 						<div class="block1 column">
 							<div class="text">
-								<a> Направление: <span class="inputs"><input type="text" name="place" size="40" required="required" placeholder="Place" style="width: 38vw;"></span></a>
+								<a> Направление: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['place']) && $errors['place'] == 0){ echo $_POST['place']; } ?>" name="place" size="40" required="required" placeholder="Place" style="width: 15vw;"></span></a>
 							</div>
+
+							<!--ERRROR  -->
+							<?php echo ($error_message_p); ?>
+							<?php echo ($error_message_p2); ?>
+							<?php echo ($error_message_p3); ?>
+							<!--END-->
 						</div>
 								
 						<div class="block2 column">
-							<div class="text">
-								<a> C:   <span class="inputs"><input type="date" name="datefrom" class="wpcf7-date" placeholder="dd/mm/yyyy" style="width: 58vw;"></span></a>
-							</div>
+						<div class="text">
+							<label>C:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['datefrom']) && $errors['datefrom'] == 0 ){ echo $_POST['datefrom']; } ?>" name="datefrom" type = "text" readonly="readonly" id = "datepicker-10"></spam>
 						</div>
 
-						<div class="block2 column">
-							<div class="text">
-								<a class="text"> Do:   <span class="inputs"><input type="date" name="dateto" class="wpcf7-date" placeholder="dd/mm/yyyy" style="width: 56vw;"></span></a>
-							</div>
+						<?php echo ($error_message_df); ?>
+						<?php echo ($error_message_no); ?>
+					</div>
+
+					<div class="block2 column">
+						<div class="text">
+							<label>Do:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-11"></spam>
 						</div>
+
+						<?php echo ($error_message_dt); ?>
+						<?php echo ($error_message_no); ?>
+					</div>
 
 						<div class="block3 column">
 							<div class="text">
-								<a class="text">Сколько людей: <span class="inputs"><input type="text" name="people" class="wpcf7-date" placeholder="people" style="width: 33vw;"></span></a>
+								<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="people" style="width: 4.5vw;"></span></a>
+							</div>
+
+							<?php echo ($error_message_peo); ?>
+							<?php echo ($error_message_peo2); ?>
+						</div>
+						
+						<div class="block1 column">
+							<div class="text">
+								<a>Name: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['name']) && $errors['name'] == 0){ echo $_POST['name']; } ?>" name="name" class="wpcf7-date" placeholder="name"></span></a>
+								<?php echo ($error_message_n); ?>
+								<?php echo ($error_message_n2); ?>
 							</div>
 						</div>
 						
 						<div class="block1 column">
 							<div class="text">
-								<a>Name: <span class="inputs"><input type="text" name="name" class="wpcf7-date" placeholder="name" style="width: 50vw;"></span></a>
+								<a>Phone: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['phone']) && $errors['phone'] == 0){ echo $_POST['phone']; } ?>" name="phone" class="wpcf7-date" placeholder="phone"></span></a>
+								<?php echo ($error_message_pho); ?>
+								<?php echo ($error_message_pho2); ?>
 							</div>
 						</div>
 						
 						<div class="block1 column">
 							<div class="text">
-								<a>Phone: <span class="inputs"><input type="text" name="phone" class="wpcf7-date" placeholder="phone" style="width: 50vw;"></span></a>
-							</div>
-						</div>
-						
-						<div class="block1 column">
-							<div class="text">
-								<a>Email: <span class="inputs"><input type="text" name="email" class="wpcf7-date" placeholder="email" style="width: 50vw;"></span></a>
+								<a>Email: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['email']) && $errors['email'] == 0){ echo $_POST['email']; } ?>" name="email" class="wpcf7-date" placeholder="email"></span></a>
+								<?php echo ($error_message_em); ?>
 							</div>
 						</div>
 						
 							<input class="blackbutton" type="submit" id="submit" name="submit" value="Заказать">
 					</form>
+
+				
 				</div>
+
+				
+										
+		
 			</div>
 		
 			<div id="main">
