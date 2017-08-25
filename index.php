@@ -1,5 +1,19 @@
 <?php
-// hello!!
+
+	$error_message_p = "";
+	$error_message_p2 = "";
+	$error_message_p3 = "";
+	$error_message_df = "";
+	$error_message_dt = "";
+	$error_message_no = "";
+	$error_message_peo = "";
+	$error_message_peo2 = "";
+	$error_message_n = "";
+	$error_message_n2 = "";
+	$error_message_pho = "";
+	$error_message_pho2 = "";
+	$error_message_em = "";
+
 
 	if(isset($_POST['submit'])) {
 		$to = 'my.worktest94@gmail.com';
@@ -13,15 +27,119 @@
 		$phone = $_POST["phone"];
 		$email = $_POST["email"];
 
+		$error_message_p = "";
+		$error_message_p2 = "";
+		$error_message_p3 = "";
+		$error_message_df = "";
+		$error_message_dt = "";
+		$error_message_no = "";
+		$error_message_peo = "";
+		$error_message_peo2 = "";
+		$error_message_n = "";
+		$error_message_n2 = "";
+		$error_message_pho = "";
+		$error_message_pho2 = "";
+		$error_message_em = "";
+
+		$errors = ['place'=>0,'datefrom'=>0,'dateto'=>0, 'people'=>0, 'name'=>0, 'phone'=>0, 'email'=>0];
+
+
+		// Place
+		if(empty($place)) {
+			$error_message_p .= '<p style = "color: red;">Please enter place.</p>';
+			$errors['place'] = 1;
+		}
+
+		$email_exp_a = "/[^A-Za-z]/";
 		
+		if(preg_match($email_exp_a,$_POST["place"])) {
+			$error_message_p3 .= '<p style = "color: red;">only alphabet!</p>';
+			$errors['place'] = 1;
+		}
 
-		$subject = 'the subject';
-		$message = "Направление:" . " " . $place . "\r\n" . "С:" . " " . $datefrom . "\r\n" . "Do:" . " " . $dateto . "\r\n" . "Сколько людей:" . " " . $people . "\r\n" . "Name:" . " " . $name . "\r\n" . "\r\n" . "Phone:" . " " . $phone . "\r\n" . "Email" . " " . $email;
-		'Reply-To:' . " " . $mail . "\r\n" .
-		'X-Mailer: PHP/' . phpversion();
+		if(strlen($place) < 2){
+			$error_message_p2 .= '<p style = "color: red;">Name of place is too short.</p>';
+			$errors['place'] = 1;
+			
+		}
+		
+		// Date
+		if(empty($datefrom)) {
+        	$error_message_df .= '<p style = "color: red;">Please enter place.</p>';
+			$errors['datefrom'] = 1;
+		}
 
-		mail($to, $subject, $message, $headers);
+		if(empty($dateto)) {
+        	$error_message_dt .= '<p style = "color: red;">Please enter place.</p>';
+			$errors['dateto'] = 1;
+		}
 
+		if($datefrom > $dateto ){
+			$error_message_no .= '<p style = "color: red;">Going back in time impossible.</p>';
+			$errors['datefrom'] = 1;
+			$errors['dateto'] = 1;
+		}
+
+		// People
+
+		if(strlen($people) < 1){
+			$error_message_peo .= '<p style = "color: red;">Enter number of peoples.</p>';
+			$errors['people'] = 1;
+		}
+
+		$error_message = "";
+    	$email_exp_n = "/[^0-9]/";
+ 
+    	if(preg_match($email_exp_n,$_POST["people"])) {
+        	$error_message_peo2 .= '<p style = "color: red;">only numbers!</p>';
+			$errors['people'] = 1;
+		}
+		
+		// Name
+		if(strlen($name) < 2) {
+        	$error_message_n .= '<p style = "color: red;">Name too short.</p>';
+			$errors['name'] = 1;
+		}
+		
+		if(preg_match($email_exp_a,$_POST["name"])) {
+			$error_message_n2 .= '<p style = "color: red;">only alphabet!</p>';
+			$errors['name'] = 1;
+		}
+
+		// Phone
+
+		if(strlen($phone) < 7) {
+        	$error_message_pho .= '<p style = "color: red;">phonenumber too short.</p>';
+			$errors['phone'] = 1;
+		}
+
+		$email_exp_n = "/[^0-9]/";
+		
+		if(preg_match($email_exp_n,$_POST["phone"])) {
+			$error_message_pho2 .= '<p style = "color: red;">only numbers!</p>';
+			$errors['phone'] = 1;
+		}
+
+		// EMAIL 
+		$error_message = "";
+    	$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+	
+    	if(!preg_match($email_exp,$email)) {
+        	$error_message_em .= '<p style = "color: red;">Please enter email!</p>';
+			$errors['email'] = 1;
+    	}
+
+		if( empty($error_message_p) && empty($error_message_p2) && empty($error_message_p3) && empty($error_message_df) && empty($error_message_dt)
+			&& empty($error_message_no) && empty($error_message_peo) && empty($error_message_peo2) && empty($error_message_n) && empty($error_message_n2)
+			&& empty($error_message_pho) && empty($error_message_pho2) && empty($error_message_em) ) 
+		{
+			$subject = 'the subject';
+			$message = "Направление:" . " " . $place . "\r\n" . "С:" . " " . $datefrom . "\r\n" . "Do:" . " " . $dateto . "\r\n" . "Сколько людей:" . " " . $people . "\r\n" . "Name:" . " " . $name . "\r\n" . "\r\n" . "Phone:" . " " . $phone . "\r\n" . "Email" . " " . $email;
+			'Reply-To:' . " " . $mail . "\r\n" .
+			'X-Mailer: PHP/' . phpversion();
+
+			mail($to, $subject, $message, $headers);
+		}
 	}
 ?>
 
@@ -145,30 +263,40 @@
 					<div class="wrap">
 						<div class="block1 column">
 							<div class="text">
-								<a> Направление: <span class="inputs"><input type="text" name="place" size="40" required="required" placeholder="Place" style="width: 15vw;"></span></a>
+								<a> Направление: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['place']) && $errors['place'] == 0){ echo $_POST['place']; } ?>" name="place" size="40" required="required" placeholder="Place" style="width: 15vw;"></span></a>
 							</div>
-						</div>
-							
-						<div class="block2 column">
-							<div class="text">
-								<!-- <a> C: <span class="inputs"><input type="date" name="datefrom" class="wpcf7-date" placeholder="dd/mm/yyyy" style="width: 11.5vw;"></span></a> -->
-
-								<label>C:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" name="date" type = "text" readonly="readonly" id = "datepicker-10"></spam>
-							</div>
+							<!--ERRROR  -->
+							<?php echo ($error_message_p); ?>
+							<?php echo ($error_message_p2); ?>
+							<?php echo ($error_message_p3); ?>
+							<!--END-->
 						</div>
 
 						<div class="block2 column">
 							<div class="text">
-								<!-- <a> Do: <span class="inputs"><input type="date" name="dateto" class="wpcf7-date" placeholder="dd/mm/yyyy" style="width: 11.5vw;"></span></a> -->
-
-								<label>Do:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" name="date" type = "text" readonly="readonly" id = "datepicker-11"></spam>
+								<label>C:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['datefrom']) && $errors['datefrom'] == 0 ){ echo $_POST['datefrom']; } ?>" name="datefrom" type = "text" readonly="readonly" id = "datepicker-10"></spam>
 							</div>
+
+							<?php echo ($error_message_df); ?>
+							<?php echo ($error_message_no); ?>
+						</div>
+
+						<div class="block2 column">
+							<div class="text">
+								<label>Do:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-11"></spam>
+							</div>
+
+							<?php echo ($error_message_dt); ?>
+							<?php echo ($error_message_no); ?>
 						</div>
 
 						<div class="block3 column">
 							<div class="text">
-								<a>Сколько людей: <span class="inputs"><input type="text" name="people" class="wpcf7-date" placeholder="people" style="width: 4.5vw;"></span></a>
+								<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="people" style="width: 4.5vw;"></span></a>
 							</div>
+
+							<?php echo ($error_message_peo); ?>
+							<?php echo ($error_message_peo2); ?>
 						</div>
 
 						<div class="block4 block4_column">
@@ -177,9 +305,17 @@
 							<div class="dropdown">
 								<button class="dropbtn">continue</button>
 								<div class="dropdown-content">
-									<a>Name: <span class="inputs"><input type="text" name="name" class="wpcf7-date" placeholder="name"></span></a>
-									<a>Phone: <span class="inputs"><input type="text" name="phone" class="wpcf7-date" placeholder="phone"></span></a>
-									<a>Email: <span class="inputs"><input type="text" name="email" class="wpcf7-date" placeholder="email"></span></a>
+									<a>Name: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['name']) && $errors['name'] == 0){ echo $_POST['name']; } ?>" name="name" class="wpcf7-date" placeholder="name"></span></a>
+									<?php echo ($error_message_n); ?>
+									<?php echo ($error_message_n2); ?>
+
+									<a>Phone: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['phone']) && $errors['phone'] == 0){ echo $_POST['phone']; } ?>" name="phone" class="wpcf7-date" placeholder="phone"></span></a>
+									<?php echo ($error_message_pho); ?>
+									<?php echo ($error_message_pho2); ?>
+
+									<a>Email: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['email']) && $errors['email'] == 0){ echo $_POST['email']; } ?>" name="email" class="wpcf7-date" placeholder="email"></span></a>
+									<?php echo ($error_message_em); ?>
+
 									<input class="blackbutton" type="submit" id="submit" name="submit" value="Send appointment">
 								</div>
 							</div>

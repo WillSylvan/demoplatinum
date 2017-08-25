@@ -718,3 +718,7 @@ form input[type=submit] {
 	background: none !important;
     background-color: rgb(169, 145, 105) !important;
 }
+
+.red p {
+    color: red;
+}
