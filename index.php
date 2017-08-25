@@ -520,7 +520,7 @@
 									<input type="text" name="email" placeholder="EMAIL:">
 									<input type="hidden" name="datefrom" value="-">
 									<input type="hidden" name="dateto" value="-">
-									<input type="hidden" name="place" value="Japan">
+									<input type="hidden" name="place" value="Morocco">
 
 									<input type="submit" value="Send" name="submit" >
 								</form>
