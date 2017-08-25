@@ -436,6 +436,9 @@ form input[type=submit] {
     height: 100%;
     position: absolute;
     background-color: rgba(255,255,255,1);
+    top: 0;
+    left:0%;
+
 }
 
 .hiden_form .hidde {

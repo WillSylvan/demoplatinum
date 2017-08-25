@@ -294,6 +294,7 @@ form .column {
 .slogan{
 	padding-bottom: 5vw;
 }
+
 .slogan h4 {
     font-size: 5vw;
     font-family: "CormorantGaramond";
@@ -401,6 +402,34 @@ form .column {
     height: 22vw;
     bottom: -24vw;
     background-size: 145%;
+}
+.hiden_form {
+    left: -100%;
+    z-index: 10;
+}
+.hiden_form form{
+    display: flex;
+    display: -webkit-flex;
+}
+.hiden_form form input:nth-child(1){
+    margin-top: 20vh;
+}
+.hiden_form input {
+    width: 80vw;
+    font-size: 1.1em;
+    padding: 3vw 8px;
+}
+.hiden_form input[type = submit] {
+    font-size: 4.5vw;
+   margin: auto;
+    height: 8vw;
+    line-height: 0;
+}
+.hiden_form .hidde {
+    height: 10vw;
+    width: 10vw;
+    right: 3vw;
+    top: 3vw;
 }
 
 }

@@ -483,7 +483,7 @@
 								<button class="book_a_tour" dir="left">book a tour</button>
 							</div>
 							<div class="hiden_form ">
-								<div class="hidde"></div>
+								<div class="hidde" dir="left"></div>
 								<form class="flex">
 									<input type="text" name="name" placeholder="NAME:">
 									<input type="text" name="phone" placeholder="TEL.">
@@ -513,7 +513,7 @@
 								<button class="book_a_tour" dir="left">book a tour</button>
 							</div>
 							<div class="hiden_form ">
-								<div class="hidde"></div>
+								<div class="hidde" dir="left"></div>
 								<form class="flex">
 									<input type="text" name="name" placeholder="NAME:">
 									<input type="text" name="phone" placeholder="TEL.">
