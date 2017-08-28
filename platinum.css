@@ -25,6 +25,20 @@ button:focus {
 input:focus {
 	outline: none;
 }
+.red, .red_2{
+    color: red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 1vw;
+}
+.red_1{
+	color: red;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
 /**/
 #header{
 	background-image:  url("img/background.jpg"); 

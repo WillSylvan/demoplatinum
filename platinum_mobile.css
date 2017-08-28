@@ -444,6 +444,36 @@ form .column {
 .wpcf7-date {
     width: 40vw;
 }
+.red{
+    color: red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 6vw;
+    left: 35vw;
+	bottom: unset;
+}
+.red_1{
+    color: red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 0vw;
+    left: 35vw;
+	bottom: unset;
+}
+.red_2{
+    color: red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 1vw;
+    left: 35vw;
+	bottom: unset;
+}
 
 
 }

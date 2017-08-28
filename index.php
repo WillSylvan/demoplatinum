@@ -47,36 +47,36 @@
 
 		// Place
 		if(empty($place)) {
-			$error_message_p .= '<p style = "color: red;">Please enter place.</p>';
+			$error_message_p .= '<p class="red">Please enter place.</p>';
 			$errors['place'] = 1;
 		}
 
 		$email_exp_a = "/[^A-Za-z]/";
 		
 		if(preg_match($email_exp_a,$_POST["place"])) {
-			$error_message_p3 .= '<p style = "color: red;">only alphabet!</p>';
+			$error_message_p3 .= '<p class="red">only alphabet!</p>';
 			$errors['place'] = 1;
 		}
 
 		if(strlen($place) < 2){
-			$error_message_p2 .= '<p style = "color: red;">Name of place is too short.</p>';
+			$error_message_p2 .= '<p class="red">Name of place is too short.</p>';
 			$errors['place'] = 1;
 			
 		}
 		
 		// Date
 		if(empty($datefrom)) {
-        	$error_message_df .= '<p style = "color: red;">Please enter place.</p>';
+        	$error_message_df .= '<p class="red">Please enter place.</p>';
 			$errors['datefrom'] = 1;
 		}
 
 		if(empty($dateto)) {
-        	$error_message_dt .= '<p style = "color: red;">Please enter place.</p>';
+        	$error_message_dt .= '<p class="red">Please enter place.</p>';
 			$errors['dateto'] = 1;
 		}
 
 		if($datefrom > $dateto ){
-			$error_message_no .= '<p style = "color: red;">Going back in time impossible.</p>';
+			$error_message_no .= '<p class="red">Going back in time impossible.</p>';
 			$errors['datefrom'] = 1;
 			$errors['dateto'] = 1;
 		}
@@ -84,7 +84,7 @@
 		// People
 
 		if(strlen($people) < 1){
-			$error_message_peo .= '<p style = "color: red;">Enter number of peoples.</p>';
+			$error_message_peo .= '<p class="red">Enter number of peoples.</p>';
 			$errors['people'] = 1;
 		}
 
@@ -92,32 +92,32 @@
     	$email_exp_n = "/[^0-9]/";
  
     	if(preg_match($email_exp_n,$_POST["people"])) {
-        	$error_message_peo2 .= '<p style = "color: red;">only numbers!</p>';
+        	$error_message_peo2 .= '<p class="red_2">only numbers!</p>';
 			$errors['people'] = 1;
 		}
 		
 		// Name
 		if(strlen($name) < 2) {
-        	$error_message_n .= '<p style = "color: red;">Name too short.</p>';
+        	$error_message_n .= '<p class="red_1">Name too short.</p>';
 			$errors['name'] = 1;
 		}
 		
 		if(preg_match($email_exp_a,$_POST["name"])) {
-			$error_message_n2 .= '<p style = "color: red;">only alphabet!</p>';
+			$error_message_n2 .= '<p class="red_1">only alphabet!</p>';
 			$errors['name'] = 1;
 		}
 
 		// Phone
 
 		if(strlen($phone) < 7) {
-        	$error_message_pho .= '<p style = "color: red;">phonenumber too short.</p>';
+        	$error_message_pho .= '<p class="red_1">phonenumber too short.</p>';
 			$errors['phone'] = 1;
 		}
 
 		$email_exp_n = "/[^0-9]/";
 		
 		if(preg_match($email_exp_n,$_POST["phone"])) {
-			$error_message_pho2 .= '<p style = "color: red;">only numbers!</p>';
+			$error_message_pho2 .= '<p class="red_1">only numbers!</p>';
 			$errors['phone'] = 1;
 		}
 
@@ -126,7 +126,7 @@
     	$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
 	
     	if(!preg_match($email_exp,$email)) {
-        	$error_message_em .= '<p style = "color: red;">Please enter email!</p>';
+        	$error_message_em .= '<p class="red_1">Please enter email!</p>';
 			$errors['email'] = 1;
     	}
 
@@ -400,7 +400,7 @@
 						<div class="block3 column">
 							<div class="text">
 								<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="people" style="width: 4.5vw;"></span></a>
-							</div>
+							</div><br>
 
 							<?php echo ($error_message_peo); ?>
 							<?php echo ($error_message_peo2); ?>
