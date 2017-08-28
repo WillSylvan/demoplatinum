@@ -381,7 +381,7 @@
 								
 						<div class="block2 column">
 						<div class="text">
-							<label>C:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['datefrom']) && $errors['datefrom'] == 0 ){ echo $_POST['datefrom']; } ?>" name="datefrom" type = "text" readonly="readonly" id = "datepicker-12"></spam>
+							<label>C: </label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['datefrom']) && $errors['datefrom'] == 0 ){ echo $_POST['datefrom']; } ?>" name="datefrom" type = "text" readonly="readonly" id = "datepicker-12"></spam>
 						</div>
 
 						<?php echo ($error_message_df); ?>
@@ -390,7 +390,7 @@
 
 					<div class="block2 column">
 						<div class="text">
-							<label>Do:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-13"></spam>
+							<label>Do: </label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-13"></spam>
 						</div>
 
 						<?php echo ($error_message_dt); ?>
@@ -639,9 +639,9 @@
 					<div id="footer_5" class="footer_block"><h1>Tags</h1></div>
 					
 					<div id="footer_6" class="footer_block" style="text-align: center;"><h1>Follow</h1>
-					<div class="footer_links" id="facebook"><a><img src="img/socials/facebook.png" width="15%"></a></div>
-					<div class="footer_links" id="twitter"><a><img src="img/socials/twitter.png" width="25%"></a></div>
-					<div class="footer_links" id="instagram"><a><img src="img/socials/instagram.png" width="25%"></a></div>
+					<div class="footer_links" id="facebook"><a href="https://facebook.com"><img src="img/socials/facebook.png" width="15%"></a></div>
+					<div class="footer_links" id="twitter"><a href="https://twitter.com"><img src="img/socials/twitter.png" width="25%"></a></div>
+					<div class="footer_links" id="instagram"><a href="https://instagram.com"><img src="img/socials/instagram.png" width="25%"></a></div>
 					</div>
 				</div>
 			</div>	
