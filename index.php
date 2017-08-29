@@ -155,10 +155,13 @@
 		<link rel="stylesheet" type="text/css" href="platinum.css">
 		<link rel="stylesheet" type="text/css" href="platinum_mobile.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
-		 <script src="js/jquery-3.2.1.min.js"></script> 
-		 <script type="" src="js/content.js"></script>
-    	<title>platinum travel</title>
+		<script src="js/jquery-3.2.1.min.js"></script> 
+		<script type="" src="js/content.js"></script>
 		
+      	<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+      	<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    	<title>platinum travel</title>
 		
 		<script>
 			$(document).ready(function(){
@@ -200,17 +203,24 @@
 			});
 			});
 		</script>
+		<script>
+    		$(document).ready(function(){
+			$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+ 			e.preventDefault();
+ 
+			var target = this.hash,
+ 			$target = $(target);
+ 
+			$('html, body').stop().animate({
+ 				'scrollTop': $target.offset().top
+ 			}, 500, 'swing', function () {
 
-
-
-			<!--for time  -->
-
-		<meta charset = "utf-8">
-      	<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
-         rel = "stylesheet">
-      	<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
-      	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-      
+ 			window.location.hash = target;
+			});
+			});
+			});
+		</script>
+		<!--for time  -->
       	<!-- Javascript -->
       	<script>
          	$(function() {
@@ -222,8 +232,7 @@
             	});
          	});
       	</script>
-
-		  <script>
+		<script>
          	$(function() {
             	$( "#datepicker-11" ).datepicker({
 					minDate: 0,
@@ -243,8 +252,7 @@
             	});
          	});
       	</script>
-
-		  <script>
+		<script>
          	$(function() {
             	$( "#datepicker-13" ).datepicker({
 					minDate: 0,
@@ -254,25 +262,6 @@
             	});
          	});
       	</script>
-
-		
-		<script>
-    		$(document).ready(function(){
-			$('a[href^="#"]').bind('click.smoothscroll',function (e) {
- 			e.preventDefault();
- 
-			var target = this.hash,
- 			$target = $(target);
- 
-			$('html, body').stop().animate({
- 				'scrollTop': $target.offset().top
- 			}, 500, 'swing', function () {
-
- 			window.location.hash = target;
-			});
-			});
-			});
-		</script>
 
 	</head>
 	
