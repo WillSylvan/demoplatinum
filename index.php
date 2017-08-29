@@ -255,6 +255,24 @@
          	});
       	</script>
 
+		
+		<script>
+    		$(document).ready(function(){
+			$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+ 			e.preventDefault();
+ 
+			var target = this.hash,
+ 			$target = $(target);
+ 
+			$('html, body').stop().animate({
+ 				'scrollTop': $target.offset().top
+ 			}, 500, 'swing', function () {
+
+ 			window.location.hash = target;
+			});
+			});
+			});
+		</script>
 
 	</head>
 	
@@ -266,15 +284,15 @@
 				
 				<div class="navigation">
 					<ul>
-						<li><a href="#">home</a></li>
-						<li><a href="#">about</a></li>
-						<li><a href="#">tours</a></li>
-						<li><a href="#">why us</a></li>
-						<li><a href="#">contacts</a></li>
+						<li><a href="#header">home</a></li>
+						<li><a href="#about_us">about</a></li>
+						<li><a href="#tours">tours</a></li>
+						<li><a href="#why_us">why us</a></li>
+						<li><a href="#footer">contacts</a></li>
 					</ul>
 				</div>
 				
-								<div class="menu"><a id="toggler" href="#"><img src="img/menu.png"></a></div>
+				<div class="menu"><a id="toggler" href="#"><img src="img/menu.png"></a></div>
 				<div id="box" style="display: none;">
 				<a id="toggler_close" style="display:none" href="#"><div class="close"><img src="img/close.png"></div></a>
                     <div>
@@ -442,7 +460,7 @@
 		
 			<div id="main">
 				<div id="content">
-					<div class="info">
+					<div id="about_us" class="info">
 						<img src="img/logo_2.png">
 						<h1>Small luxury travel</h1>
 						<p>Туристическая компания класса люкс, которая не оставит вас без
@@ -468,7 +486,7 @@
 						</p>
 					</div>
 
-					<div class="wrap_1">
+					<div id="tours" class="wrap_1">
 						<div class="photo photo_1">
 							<div class="text_on_photo">
 								<h2>Япония</h2>
@@ -531,7 +549,7 @@
 						
 					</div>
 					
-					<div class="block_why_us">
+					<div id="why_us" class="block_why_us">
 						<div class="whyus"><h3>Почему мы?</h3></div>
 					
 						<div class="wrap_2">
@@ -621,18 +639,18 @@
 					<div id="footer_3" class="footer_block">
 						<h1>Content</h1>
 					<ul>
-						<li><a>home</a></li>
-						<li><a>tours</a></li>
-						<li><a>about us</a></li>
-						<li><a>contacts</a></li>
+						<li><a href="#header">home</a></li>
+						<li><a href="#tours">tours</a></li>
+						<li><a href="#about_us">about us</a></li>
+						<li><a href="#footer">contacts</a></li>
 					</ul>
 					</div>
 					
 					<div id="footer_4" class="footer_block">
 						<h1>Tours</h1>
 					<ul>
-						<li><a>Japan</a></li>
-						<li><a>Morocco</a></li>
+						<li><a href="#tours">Japan</a></li>
+						<li><a href="#tours">Morocco</a></li>
 					</ul>
 					</div>
 					
