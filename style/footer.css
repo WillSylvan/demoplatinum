@@ -1,6 +1,6 @@
 /**/
 #footer{
-	height: 24vw;
+	height: 17vw;
 	background-color: #b3a58d;
 }
 #footer_info{
@@ -8,10 +8,10 @@
     justify-content: center;
 }
 .footer_block{
-	padding: 6vw 2vw 6vw 2vw;
+	padding: 3vw 2vw 3vw 2vw;
 }
 .footer_block h1{
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   font-family: "Roboto", sans-serif;
   color: rgb(255, 254, 254);
   font-weight: bold;
@@ -19,10 +19,10 @@
   padding-bottom: 1vw;
 }
 .footer_block p{
-  font-size: 1vw;
+  font-size: 0.9vw;
   font-family: "Roboto", sans-serif;
   color: rgb(255, 255, 255);
-  line-height: 1.4vw;
+  line-height: 1.2vw;
   margin: 0;
 }
 .foter_block ul, li, a{

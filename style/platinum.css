@@ -299,8 +299,8 @@ input:focus {
     display: flex;
 }
 .blocks{
-	width: 20vw;
-    height: 20vw;
+	width: 16vw;
+    height: 16vw;
     margin: 1vw;
     display: inline-block;
     transition: all ease 0.3s;
@@ -311,7 +311,7 @@ input:focus {
 }
 .table{
 	width: 100%;
-	height: 20vw;
+	height: 16vw;
 }
 .table tr{
 	height: 50%;
@@ -344,6 +344,21 @@ input:focus {
     margin: 0;
 }
 /*tour*/
+.round_buttons_web{
+	display: block;
+	text-align: center;
+	padding-top: 2vw;
+}
+.round_buttons_web button {
+    background-color: rgb(198, 177, 141);
+    padding: 0.5vw;
+    border-radius: 3vw;
+    border: none;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+
 .wrap_3{
 	width: 100%;
     flex-wrap: wrap;

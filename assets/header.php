@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style/header.css">
 <link rel="stylesheet" type="text/css" href="style/platinum_mobile.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 			<div id="header">
 				<div class="logo"><a><img src="img/logo.png"></a></div>
@@ -53,7 +54,7 @@
 
 							<div class="block2 column">
 								<div class="text">
-									<label>Do:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-11"></spam>
+									<label>До:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-11"></spam>
 								</div>
 
 								<?php echo ($error_message_dt); ?>
@@ -62,7 +63,7 @@
 
 							<div class="block3 column">
 								<div class="text">
-									<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="people" style="width: 4.5vw;"></span></a>
+									<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="0" style="width: 4vw;"></span></a>
 								</div>
 
 								<?php echo ($error_message_peo); ?>
@@ -73,7 +74,7 @@
 								
 
 								<div class="dropdown">
-									<button class="dropbtn">continue</button>
+									<button class="dropbtn">Оформить заказ</button>
 									<div class="dropdown-content">
 										<a>Name: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['name']) && $errors['name'] == 0){ echo $_POST['name']; } ?>" name="name" class="wpcf7-date" placeholder="name"></span></a>
 										<?php echo ($error_message_n); ?>

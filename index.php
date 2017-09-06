@@ -298,7 +298,7 @@
 
 					<div class="block2 column">
 						<div class="text">
-							<label>Do: </label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-13"></spam>
+							<label>До: </label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-13"></spam>
 						</div>
 
 						<?php echo ($error_message_dt); ?>
@@ -307,7 +307,7 @@
 
 						<div class="block3 column">
 							<div class="text">
-								<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="people" style="width: 4.5vw;"></span></a>
+								<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="0" style="width: 4.5vw;"></span></a>
 							</div><br>
 
 							<?php echo ($error_message_peo); ?>
@@ -385,7 +385,7 @@
 								сакура в цвету, великолепные<br>
 								пляжи островов Окинава и<br>
 								древние памятники синтоизма<br></p>
-								<button class="book_a_tour" dir="left">book a tour</button>
+								<button class="book_a_tour" dir="left">Оформить заказ</button>
 							</div>
 							<div class="hiden_form ">
 								<div class="hidde" dir="left"></div>
@@ -415,7 +415,7 @@
 								сабланка, отдых в Эс-Сувейре и<br>
 								Агадире, колоритные базары и<br>
 								восхитительная кухня</span><br></p>
-								<button class="book_a_tour" dir="left">book a tour</button>
+								<button class="book_a_tour" dir="left">Оформить заказ</button>
 							</div>
 							<div class="hiden_form ">
 								<div class="hidde" dir="left"></div>
@@ -483,13 +483,19 @@
 					<div class="cell1 background1"><div id="trim_2"></div></div>
 					<div class="cell2 background2">
 					<div class="text_block">
-					<h3>Morocco tour</h3>
+					<h3>Тур в Марокко</h3>
 					<div class="text_border"></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
 					<p class="signature">-Martin</p>
 					</div>
+					</div>	
 					</div>
-					</div>
+					
+						<div class="round_buttons_web">
+							<button id="flip_111"></button>
+							<button id="flip_222"></button>
+							<button id="flip_333"></button>
+						</div>
 					
 					<div class="slogan">
 					<h4>Готовы обсудить всё лично или при встрече?</h4>
