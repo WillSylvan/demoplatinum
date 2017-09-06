@@ -1,0 +1,46 @@
+/**/
+#footer{
+	height: 24vw;
+	background-color: #b3a58d;
+}
+#footer_info{
+	width: 100%;
+    justify-content: center;
+}
+.footer_block{
+	padding: 6vw 2vw 6vw 2vw;
+}
+.footer_block h1{
+  font-size: 1.5vw;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 254, 254);
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 1vw;
+}
+.footer_block p{
+  font-size: 1vw;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.4vw;
+  margin: 0;
+}
+.foter_block ul, li, a{
+	list-style-type: none;
+    font-size: 1vw;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2vw;
+    margin: 0;
+    padding-bottom: 1vw;
+    cursor: pointer;
+}
+.footer_links{
+	padding-bottom: 1.7vw;
+	cursor: pointer;
+}
+.ui-widget-header {
+    border: none !important;
+	background: none !important;
+    background-color: rgb(169, 145, 105) !important;
+}

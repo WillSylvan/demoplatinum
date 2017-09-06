@@ -152,8 +152,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="platinum.css">
-		<link rel="stylesheet" type="text/css" href="platinum_mobile.css">
+		<link rel="stylesheet" type="text/css" href="style/platinum.css">
+		<link rel="stylesheet" type="text/css" href="style/platinum_mobile.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
 		<script src="js/jquery-3.2.1.min.js"></script> 
 		<script type="" src="js/content.js"></script>
@@ -268,106 +268,7 @@
 	<body>
 		<div id="class_container">
 			
-			<div id="header">
-				<div class="logo"><a><img src="img/logo.png"></a></div>
-				
-				<div class="navigation">
-					<ul>
-						<li><a href="#header">home</a></li>
-						<li><a href="#about_us">about</a></li>
-						<li><a href="#tours">tours</a></li>
-						<li><a href="#why_us">why us</a></li>
-						<li><a href="#footer">contacts</a></li>
-					</ul>
-				</div>
-				
-				<div class="menu"><a id="toggler" href="#"><img src="img/menu.png"></a></div>
-				<div id="box" style="display: none;">
-				<a id="toggler_close" style="display:none" href="#"><div class="close"><img src="img/close.png"></div></a>
-                    <div>
-                    <ul class="box_li">
-                    <li><a href="#" id="closeclose">Главная</a></li>
-                    <li><a href="#" id="closeclose1">Туры</a></li>
-                    <li><a href="#" id="closeclose2">О нас</a></li>
-                    <li><a href="#" id="closeclose4">Контакты</a></li>
-                    </ul>
-                    </div>
-                </div>
-				<?php if(!$mailSuccess){ ?>
-					<form id="form" name="orderform" method="post" action="index.php">
-						<div class="wrap">
-							<div class="block1 column">
-								<div class="text">
-									<a> Направление: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['place']) && $errors['place'] == 0){ echo $_POST['place']; } ?>" name="place" size="40" required="required" placeholder="Place" style="width: 15vw;"></span></a>
-								</div>
-								<!--ERRROR  -->
-								<?php echo ($error_message_p); ?>
-								<?php echo ($error_message_p2); ?>
-								<?php echo ($error_message_p3); ?>
-								<!--END-->
-							</div>
-
-							<div class="block2 column">
-								<div class="text">
-									<label>C:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['datefrom']) && $errors['datefrom'] == 0 ){ echo $_POST['datefrom']; } ?>" name="datefrom" type = "text" readonly="readonly" id = "datepicker-10"></spam>
-								</div>
-
-								<?php echo ($error_message_df); ?>
-								<?php echo ($error_message_no); ?>
-							</div>
-
-							<div class="block2 column">
-								<div class="text">
-									<label>Do:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-11"></spam>
-								</div>
-
-								<?php echo ($error_message_dt); ?>
-								<?php echo ($error_message_no); ?>
-							</div>
-
-							<div class="block3 column">
-								<div class="text">
-									<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="people" style="width: 4.5vw;"></span></a>
-								</div>
-
-								<?php echo ($error_message_peo); ?>
-								<?php echo ($error_message_peo2); ?>
-							</div>
-
-							<div class="block4 block4_column">
-								
-
-								<div class="dropdown">
-									<button class="dropbtn">continue</button>
-									<div class="dropdown-content">
-										<a>Name: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['name']) && $errors['name'] == 0){ echo $_POST['name']; } ?>" name="name" class="wpcf7-date" placeholder="name"></span></a>
-										<?php echo ($error_message_n); ?>
-										<?php echo ($error_message_n2); ?>
-
-										<a>Phone: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['phone']) && $errors['phone'] == 0){ echo $_POST['phone']; } ?>" name="phone" class="wpcf7-date" placeholder="phone"></span></a>
-										<?php echo ($error_message_pho); ?>
-										<?php echo ($error_message_pho2); ?>
-
-										<a>Email: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['email']) && $errors['email'] == 0){ echo $_POST['email']; } ?>" name="email" class="wpcf7-date" placeholder="email"></span></a>
-										<?php echo ($error_message_em); ?>
-
-										<input class="blackbutton" type="submit" id="submit" name="submit" value="Send appointment">
-									</div>
-								</div>
-							
-							</div>
-						</div>
-					</form>
-					<?php
-										
-				}else{
-					
-					?>
-						<div class = "checkmail"> <h1>Check your mail!</h1></div>
-					
-				<?php } ?>
-
-			</div>
+			<?php include 'assets/header.php'; ?>
 		
 			<div id="mobile_form">
 			
@@ -441,9 +342,6 @@
 
 				
 				</div>
-
-				
-										
 		
 			</div>
 		
@@ -603,55 +501,7 @@
 				</div>
 			</div>
 			
-			<div id="footer">
-				<div class="flex" id="footer_info">
-				<div class="footer_block" style="width: 6%" id="footer_image"><img src="img/logo.png" width="100%;" style="padding-top: 2vw;"></div>
-					<div id="footer_1" class="footer_block">
-					<h1>Travel with us!</h1>
-					<p>Туристическая компания класса<br> 
-					люкс, которая не оставит вас без<br> 
-					впечатлений об отдыхе на высшем<br> 
-					уровне. Platinum Travel уважает<br> 
-					личность и ее статус - мы знаем<br> 
-					всех своих клиентов в лицо.</p>
-					</div>
-					
-					<div id="footer_2" class="footer_block">
-					<h1>Contact us</h1>
-					<p>Gertrudes iela 20, entrance<br>
-					from Akas iela, Riga, Latvia<br>
-					info@platinumtravel.lv<br>
-					Tel: +371 6729 0016 / 17<br>
-					Mobile: +371 2913 5343<br></p>
-					</div>
-					
-					<div id="footer_3" class="footer_block">
-						<h1>Content</h1>
-					<ul>
-						<li><a href="#header">home</a></li>
-						<li><a href="#tours">tours</a></li>
-						<li><a href="#about_us">about us</a></li>
-						<li><a href="#footer">contacts</a></li>
-					</ul>
-					</div>
-					
-					<div id="footer_4" class="footer_block">
-						<h1>Tours</h1>
-					<ul>
-						<li><a href="#tours">Japan</a></li>
-						<li><a href="#tours">Morocco</a></li>
-					</ul>
-					</div>
-					
-					<div id="footer_5" class="footer_block"><h1>Tags</h1></div>
-					
-					<div id="footer_6" class="footer_block" style="text-align: center;"><h1>Follow</h1>
-					<div class="footer_links" id="facebook"><a href="https://facebook.com"><img src="img/socials/facebook.png" width="15%"></a></div>
-					<div class="footer_links" id="twitter"><a href="https://twitter.com"><img src="img/socials/twitter.png" width="25%"></a></div>
-					<div class="footer_links" id="instagram"><a href="https://instagram.com"><img src="img/socials/instagram.png" width="25%"></a></div>
-					</div>
-				</div>
-			</div>	
+			<?php include 'assets/footer.php'; ?>
 		</div>
 	</body>
 </html>

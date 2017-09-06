@@ -24,7 +24,7 @@
 	display: none;
 }	
 #header{
-	background-image:  url("img/background_mobile.jpg"); 
+	background-image:  url("../img/background_mobile.jpg"); 
 	height: 159vw;
 }
 .logo{
@@ -360,7 +360,7 @@ form .column {
     margin-right: 1vw;
 }
 #trim{
-	background-image: url(img/trim.png);
+	background-image: url(../img/trim.png);
     background-repeat: no-repeat;
     display: block;
     position: absolute;
@@ -371,7 +371,7 @@ form .column {
     bottom: 0;
 }
 #trim_2{
-	background-image: url(img/trim_2.png);
+	background-image: url(../img/trim_2.png);
     background-repeat: no-repeat;
     display: block;
     position: absolute;
@@ -382,7 +382,7 @@ form .column {
     bottom: 0;
 }
 #trim_3{
-	background-image: url(img/trim_3.png);
+	background-image: url(../img/trim_3.png);
     background-repeat: no-repeat;
     display: block;
     position: absolute;
@@ -393,7 +393,7 @@ form .column {
     bottom: 0;
 }
 #trim_4{
-	background-image: url(img/trim_4.png);
+	background-image: url(../img/trim_4.png);
     background-repeat: no-repeat;
     display: block;
     position: absolute;
