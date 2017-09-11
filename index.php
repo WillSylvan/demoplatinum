@@ -436,7 +436,7 @@
 						
 					</div>
 					
-					<div id="why_us" class="block_why_us">
+					<!--<div id="why_us" class="block_why_us">
 						<div class="whyus"><h3>Почему мы?</h3></div>
 					
 						<div class="wrap_2">
@@ -477,25 +477,72 @@
 								})
 							});
 						</script>
-					</div>
+					</div>-->
 					
-					<div class="wrap_3">
-					<div class="cell1 background1"><div id="trim_2"></div></div>
-					<div class="cell2 background2">
-					<div class="text_block">
-					<h3>Тур в Марокко</h3>
-					<div class="text_border"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
-					<p class="signature">-Martin</p>
-					</div>
-					</div>	
-					</div>
+					<div id="tours_info">
 					
+						<div class="wrap_3" id="flip_tour_1">
+							<div class="cell1 background1"><div id="trim_2"></div></div>
+							<div class="cell2 background2">
+							<div class="text_block">
+							<h3>Тур в Марокко</h3>
+							<div class="text_border"></div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+							<p class="signature">-Martin</p>
+							</div>
+							</div>	
+						</div>
+						
+						<div class="wrap_3" id="flip_tour_2" style="display: none;">
+							<div class="cell1 background3"><div id="trim_2"></div></div>
+							<div class="cell2 background2">
+							<div class="text_block">
+							<h3>Тур в Японию</h3>
+							<div class="text_border"></div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+							<p class="signature">-Martin</p>
+							</div>
+							</div>	
+						</div>
+						
+						<div class="wrap_3" id="flip_tour_3" style="display: none;">
+							<div class="cell1 background4"><div id="trim_2"></div></div>
+							<div class="cell2 background2">
+							<div class="text_block">
+							<h3>Другие туры</h3>
+							<div class="text_border"></div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+							<p class="signature">-Martin</p>
+							</div>
+							</div>	
+						</div>
+					
+					</div>
 						<div class="round_buttons_web">
 							<button id="flip_111"></button>
 							<button id="flip_222"></button>
 							<button id="flip_333"></button>
 						</div>
+						
+						<script>
+						$(document).ready(function(){
+							$("#flip_111").click(function () {
+								$("#flip_tour_1").css("display","flex");
+								$("#flip_tour_2").css("display","none");
+								$("#flip_tour_3").css("display","none");
+							});
+							$("#flip_222").click(function () {
+								$("#flip_tour_2").css("display","flex");
+								$("#flip_tour_1").css("display","none");
+								$("#flip_tour_3").css("display","none");
+							});
+							$("#flip_333").click(function () {
+								$("#flip_tour_3").css("display","flex");
+								$("#flip_tour_2").css("display","none");
+								$("#flip_tour_1").css("display","none");
+							});
+						});
+						</script>
 					
 					<div class="slogan">
 					<h4>Готовы обсудить всё лично или при встрече?</h4>

@@ -19,8 +19,7 @@
 #footer_3,
 #footer_4,
 #footer_5,
-.photo_2,
-.round_buttons_web
+.photo_2
 {
 	display: none;
 }	
@@ -264,9 +263,14 @@ form .column {
     height: 150vw;
     width: 100%;
 }
-.background1{
+.background1, .background3, .background4{
 	background-position: 40%;
 	position: relative;
+}
+.background4{
+	background-image: url(../img/photo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .cell2 {
     height: 140vw;
@@ -474,6 +478,9 @@ form .column {
     margin-top: 1vw;
     left: 35vw;
 	bottom: unset;
+}
+.round_buttons_web button {
+    padding: 1vw;
 }
 
 
