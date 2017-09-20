@@ -34,8 +34,8 @@
     opacity: 0.8;
 }
 .navigation a{
-	color: rgb(130, 130, 130);
-	font-weight: 600;
+	color: white;
+    font-weight: 500;
 }
 .wrap{
 	width: 100%;

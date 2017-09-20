@@ -322,9 +322,13 @@ input:focus {
 .image{
 	text-align: center;
 }
-.image img{
+/*.image img{
 	width: 25%;
 	margin-top: 3vw;
+}*/
+.image img{
+	width: 75%;
+    margin-top: 1vw;
 }
 .content_info h1{
 	font-size: 1.6vw;

@@ -307,7 +307,7 @@
 
 						<div class="block3 column">
 							<div class="text">
-								<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="0" style="width: 4.5vw;"></span></a>
+								<a>Количество человек: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="0" style="width: 4.5vw;"></span></a>
 							</div><br>
 
 							<?php echo ($error_message_peo); ?>
@@ -543,6 +543,49 @@
 							});
 						});
 						</script>
+					
+					<div id="why_us" class="block_why_us">
+						<!--<div class="whyus"><h3>Почему мы?</h3></div>-->
+					
+						<div class="wrap_2">
+							<div class="blocks content" id="first">
+								<table class="table">
+								<tr><td><div class="image"><img src="img/1.jpg"></div></td></tr>
+								<tr><td><div class="content_info"><h1>Гольф</h1></div></td></tr>
+								</table>
+							</div>
+							<div class="blocks content" id="second">
+								<table class="table">
+								<tr><td><div class="image"><img src="img/2.jpg"></div></td></tr>
+								<tr><td><div class="content_info"><h1>Поезда</h1>
+								</div></td></tr>
+								</table>
+							</div>
+							<div class="blocks content" id="third">
+								<table class="table">
+								<tr><td><div class="image"><img src="img/3.jpg"></div></td></tr>
+								<tr><td><div class="content_info"><h1>Аюверда</h1>
+								</div></td></tr>
+								</table>
+							</div>
+						</div>
+						
+						<div class="round_buttons_why_us">
+							<button id="flip_1"></button>
+							<button id="flip_2"></button>
+							<button id="flip_3"></button>
+						</div>
+						
+						<script>
+							$(document).ready(function(){
+								$('.round_buttons_why_us button').click(function(){
+									id = $(this).index()
+									$('.wrap_2 .blocks').css('display','none')
+										$('.wrap_2 .blocks:eq('+id+')').fadeIn(300)
+								})
+							});
+						</script>
+					</div>
 					
 					<div class="slogan">
 					<h4>Готовы обсудить всё лично или при встрече?</h4>

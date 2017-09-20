@@ -63,7 +63,7 @@
 
 							<div class="block3 column">
 								<div class="text">
-									<a>Сколько людей: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="0" style="width: 4vw;"></span></a>
+									<a>Количество человек: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="0" style="width: 4vw;"></span></a>
 								</div>
 
 								<?php echo ($error_message_peo); ?>

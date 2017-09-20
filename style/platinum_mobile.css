@@ -251,9 +251,13 @@ form .column {
 .content_info h2 {
     font-size: 3vw;
 }
-.image img {
+/*.image img {
     width: 25%;
     margin-top: 18vw;
+}*/
+.image img{
+	width: 75%;
+    margin-top: 5vw;
 }
 #second, #third{display:none}
 .wrap_3{
@@ -481,6 +485,10 @@ form .column {
 }
 .round_buttons_web button {
     padding: 1vw;
+}
+.round_buttons_web {
+    padding-top: 10vw;
+	padding-bottom: 5vw;
 }
 
 
