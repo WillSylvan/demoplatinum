@@ -11,7 +11,32 @@
 					<ul>
 						<li><a href="#header">home</a></li>
 						<li><a href="#about_us">about</a></li>
-						<li><a href="#tours">tours</a></li>
+						<li>
+						
+							<div class="dropdown1">
+								<button class="dropbtn1">tours</button>
+								<div class="dropdown1-content">
+									<p>Австрия </p>
+									<p>Вьетнам </p>
+									<p>Греция </p>
+									<p>Индия </p>
+									<p>Испания</p>
+									<p>Италия </p>
+									<p>Кипр</p>
+									<p>Сейшелы</p>
+									<p>Сен-Бартелеми </p>
+									<p>Тайланд</p>
+									<p>Франция</p>
+									<p>Черногория </p>
+									<p>Швейцария</p>
+									<p>Хорватия</p>
+									<p>Мальдивы </p>
+									<p>Маврикий</p>
+									<p>Шри ланка</p>
+								</div>
+							</div>
+						
+						</li>
 						<li><a href="#why_us">why us</a></li>
 						<li><a href="#footer">contacts</a></li>
 					</ul>
