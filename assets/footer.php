@@ -18,10 +18,8 @@
 					
 					<div id="footer_2" class="footer_block">
 					<h1>Contact us</h1>
-					<p>Gertrudes iela 20, entrance<br>
-					from Akas iela, Riga, Latvia<br>
+					<p>Gertrudes iela 2, Riga, Latvia<br>
 					info@platinumtravel.lv<br>
-					Tel: +371 6729 0016 / 17<br>
 					Mobile: +371 2913 5343<br></p>
 					</div>
 					
@@ -47,8 +45,6 @@
 					
 					<div id="footer_6" class="footer_block" style="text-align: center;"><h1>Follow</h1>
 					<div class="footer_links" id="facebook"><a href="https://facebook.com"><img src="img/socials/facebook.png" width="15%"></a></div>
-					<div class="footer_links" id="twitter"><a href="https://twitter.com"><img src="img/socials/twitter.png" width="25%"></a></div>
-					<div class="footer_links" id="instagram"><a href="https://instagram.com"><img src="img/socials/instagram.png" width="25%"></a></div>
 					</div>
 				</div>
 			</div>	

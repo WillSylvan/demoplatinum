@@ -373,6 +373,20 @@
 						</p>
 					</div>
 
+					<div class="wrap_2">
+							<div class="blocks content" id="first">
+								<div class="content_info"><h1>Гольф</h1></div></td></tr>
+							</div>
+							<div class="blocks content" id="second">
+								<div class="content_info"><h1>Поезда</h1>
+								</div>
+							</div>
+							<div class="blocks content" id="third">
+								<div class="content_info"><h1>Аюверда</h1>
+								</div>
+							</div>
+					</div>
+					
 					<div id="tours" class="wrap_1">
 						<div class="photo photo_1">
 							<div class="text_on_photo">
@@ -485,7 +499,7 @@
 							<div class="cell1 background1"><div id="trim_2"></div></div>
 							<div class="cell2 background2">
 							<div class="text_block">
-							<h3>Тур в Марокко</h3>
+							<h3>Тур в Австрию</h3>
 							<div class="text_border"></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
 							<p class="signature">-Martin</p>
@@ -545,30 +559,7 @@
 						</script>
 					
 					<div id="why_us" class="block_why_us">
-						<!--<div class="whyus"><h3>Почему мы?</h3></div>-->
-					
-						<div class="wrap_2">
-							<div class="blocks content" id="first">
-								<table class="table">
-								<tr><td><div class="image"><img src="img/1.jpg"></div></td></tr>
-								<tr><td><div class="content_info"><h1>Гольф</h1></div></td></tr>
-								</table>
-							</div>
-							<div class="blocks content" id="second">
-								<table class="table">
-								<tr><td><div class="image"><img src="img/2.jpg"></div></td></tr>
-								<tr><td><div class="content_info"><h1>Поезда</h1>
-								</div></td></tr>
-								</table>
-							</div>
-							<div class="blocks content" id="third">
-								<table class="table">
-								<tr><td><div class="image"><img src="img/3.jpg"></div></td></tr>
-								<tr><td><div class="content_info"><h1>Аюверда</h1>
-								</div></td></tr>
-								</table>
-							</div>
-						</div>
+						<!--<div class="whyus"><h3>Почему мы?</h3></div>-->		
 						
 						<div class="round_buttons_why_us">
 							<button id="flip_1"></button>

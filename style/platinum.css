@@ -273,6 +273,7 @@ input:focus {
   opacity: 1;
 }
 /*why_us*/
+/*
 .block_why_us{
 	margin-top: 5vw;
     margin-bottom: 5vw;
@@ -326,18 +327,59 @@ input:focus {
 	width: 25%;
 	margin-top: 3vw;
 }*/
+.block_why_us{
+	margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.whyus h3{
+	font-size: 3vw;
+	font-family: "CormorantGaramond";
+	color: rgb(179, 165, 141);
+	font-weight: bold;
+	font-style: italic;
+	line-height: 1.2;
+	text-align: center;
+}
+.wrap_2{
+	width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.blocks{
+	width: 10vw;
+    height: auto;
+    margin: 1vw;
+    display: inline-block;
+    transition: all ease 0.3s;
+}
+.content{
+	background-color: rgb(179, 164, 140);
+	box-shadow: 0px 6px 116.8px 29.2px rgba(188, 188, 188, 0.33);
+	border-radius: 0.2vw;
+}
+.image{
+	text-align: center;
+}
 .image img{
 	width: 75%;
     margin-top: 1vw;
 }
 .content_info h1{
-	font-size: 1.6vw;
+	font-size: 1.2vw;
     font-family: "Roboto", sans-serif;
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
     padding: 0;
     margin: 0;
+    padding: 0.5vw;
 }
 .content_info h2{
 	font-size: 1vw;
@@ -347,6 +389,7 @@ input:focus {
     padding: 0;
     margin: 0;
 }
+
 /*tour*/
 .round_buttons_web{
 	display: block;
