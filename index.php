@@ -374,14 +374,29 @@
 					</div>
 
 					<div class="wrap_2">
-							<div class="blocks content" id="first">
-								<div class="content_info"><h1>Гольф</h1></div></td></tr>
+							<div class="blocks_logos">
+								<img src="img/aman.png">
 							</div>
-							<div class="blocks content" id="second">
-								<div class="content_info"><h1>Поезда</h1>
+							<div class="blocks_logos">
+								<img src="img/belmond.png">
+							</div>
+							<div class="blocks_logos">
+								<img src="img/seasons.png">
+							</div>
+							<div class="blocks_logos">
+								<img src="img/mansour.png">
+							</div>
+					</div>
+					
+					<div class="wrap_2">
+							<div class="blocks" id="first">
+								<div class="content_info"><h1>Поезд Orient-Express</h1></div>
+							</div>
+							<div class="blocks" id="second">
+								<div class="content_info"><h1>Гольф</h1>
 								</div>
 							</div>
-							<div class="blocks content" id="third">
+							<div class="blocks" id="third">
 								<div class="content_info"><h1>Аюверда</h1>
 								</div>
 							</div>

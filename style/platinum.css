@@ -53,15 +53,15 @@ input:focus {
 /*information*/
 .info{
 	position: relative;
-	text-align: center;
-	padding-top: 5vw;
-	padding-bottom: 7vw;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 .info img{
-	width: 6%;
+	width: 4%;
 }
 .info h1{
-	font-size: 2.3vw;
+	font-size: 1.8vw;
 	font-family: 'Cormorant Garamond';
 	color: rgb(179, 165, 141);
 	font-weight: bold;
@@ -71,7 +71,7 @@ input:focus {
 	margin: 0;
 }
 .info p{
-	font-size: 1.1vw;
+	font-size: 1vw;
 	font-family: "Roboto", sans-serif;
 	color: rgb(171, 171, 171);
 	font-style: italic;
@@ -85,13 +85,13 @@ input:focus {
 #info{
 	position: relative;
     text-align: center;
-    padding-bottom: 7vw;
+    padding-bottom: 3vw;
     padding-left: 20vw;
     padding-right: 20vw;
-	margin-top: -5vw;
+	margin-top: -2vw;
 }
 #info h1{
-	font-size: 2.3vw;
+	font-size: 1.8vw;
 	font-family: 'Cormorant Garamond';
 	color: rgb(179, 165, 141);
 	font-weight: bold;
@@ -101,7 +101,7 @@ input:focus {
 	margin: 0;
 }
 #info p{
-	font-size: 1.1vw;
+	font-size: 1vw;
 	font-family: "Roboto", sans-serif;
 	color: rgb(171, 171, 171);
 	font-style: italic;
@@ -353,16 +353,24 @@ input:focus {
     display: flex;
 }
 .blocks{
-	width: 10vw;
+	width: 14vw;
     height: auto;
     margin: 1vw;
     display: inline-block;
     transition: all ease 0.3s;
-}
-.content{
 	background-color: rgb(179, 164, 140);
 	box-shadow: 0px 6px 116.8px 29.2px rgba(188, 188, 188, 0.33);
 	border-radius: 0.2vw;
+}
+.blocks_logos{
+	width: 19vw;
+    height: 6vw;
+    margin: 1vw;
+    display: inline-block;
+    text-align: center;
+}
+.blocks_logos img{
+	width: 8vw;
 }
 .image{
 	text-align: center;
