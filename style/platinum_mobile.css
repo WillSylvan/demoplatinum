@@ -239,7 +239,14 @@ form .column {
     font-weight: 500;
 }
 .wrap_2{
-	display: grid;
+
+}
+.blocks_logos {
+    width: auto;
+    height: 30vw;
+}
+.blocks_logos img {
+    width: 20vw;
 }
 .blocks {
     width: 70vw;
@@ -247,6 +254,7 @@ form .column {
 }
 .content_info h1 {
     font-size: 6vw;
+	margin-top: 30vw;
 }
 .content_info h2 {
     font-size: 3vw;
@@ -357,7 +365,7 @@ form .column {
 .round_buttons_why_us{
 	display: block;
 	text-align: center;
-	padding-top: 15vw;
+	padding-top: 5vw;
 	padding-bottom: 5vw;
 }
 .round_buttons_why_us button {

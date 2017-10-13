@@ -402,6 +402,26 @@
 							</div>
 					</div>
 					
+					<div id="why_us" class="block_why_us">
+						<!--<div class="whyus"><h3>Почему мы?</h3></div>-->		
+						
+						<div class="round_buttons_why_us">
+							<button id="flip_1"></button>
+							<button id="flip_2"></button>
+							<button id="flip_3"></button>
+						</div>
+						
+						<script>
+							$(document).ready(function(){
+								$('.round_buttons_why_us button').click(function(){
+									id = $(this).index()
+									$('.wrap_2 .blocks').css('display','none')
+										$('.wrap_2 .blocks:eq('+id+')').fadeIn(300)
+								})
+							});
+						</script>
+					</div>
+					
 					<div id="tours" class="wrap_1">
 						<div class="photo photo_1">
 							<div class="text_on_photo">
@@ -571,27 +591,7 @@
 								$("#flip_tour_1").css("display","none");
 							});
 						});
-						</script>
-					
-					<div id="why_us" class="block_why_us">
-						<!--<div class="whyus"><h3>Почему мы?</h3></div>-->		
-						
-						<div class="round_buttons_why_us">
-							<button id="flip_1"></button>
-							<button id="flip_2"></button>
-							<button id="flip_3"></button>
-						</div>
-						
-						<script>
-							$(document).ready(function(){
-								$('.round_buttons_why_us button').click(function(){
-									id = $(this).index()
-									$('.wrap_2 .blocks').css('display','none')
-										$('.wrap_2 .blocks:eq('+id+')').fadeIn(300)
-								})
-							});
-						</script>
-					</div>
+						</script>	
 					
 					<div class="slogan">
 					<h4>Готовы обсудить всё лично или при встрече?</h4>
