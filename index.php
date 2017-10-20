@@ -287,7 +287,7 @@
 							<!--END-->
 						</div>
 								
-						<div class="block2 column">
+					<div class="block2 column">
 						<div class="text">
 							<label>C: </label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['datefrom']) && $errors['datefrom'] == 0 ){ echo $_POST['datefrom']; } ?>" name="datefrom" type = "text" readonly="readonly" id = "datepicker-12"></spam>
 						</div>
@@ -594,7 +594,7 @@
 						</script>	
 					
 					<div class="slogan">
-					<h4>Готовы обсудить всё лично или при встрече?</h4>
+					<h4>Готовы обсудить всё лично или при встрече!</h4>
 					<div class="text_border_slogan_top"></div>
 					<p>Позвоните или напишите нам и мы поможем вам сделать ваш отдых самым<br> незабываемым</p>
 					<div class="text_border_slogan_bottom"></div>

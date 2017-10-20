@@ -5,22 +5,21 @@
 
 			<div id="footer">
 				<div class="flex" id="footer_info">
-				<div class="footer_block" style="width: 6%" id="footer_image"><img src="img/logo.png" width="100%;" style="padding-top: 2vw;"></div>
+				<div class="footer_block" style="width: 6%" id="footer_image"><img src="img/logo.png" width="100%;"></div>
 					<div id="footer_1" class="footer_block">
 					<h1>Travel with us!</h1>
-					<p>Туристическая компания класса<br> 
-					люкс, которая не оставит вас без<br> 
-					впечатлений об отдыхе на высшем<br> 
-					уровне. Platinum Travel уважает<br> 
+					<p>Platinum Travel уважает<br> 
 					личность и ее статус - мы знаем<br> 
-					всех своих клиентов в лицо.</p>
+					всех своих клиентов в лицо и <br>
+					для нас конфиденциальность<br>
+					превыше всего!</p>
 					</div>
 					
 					<div id="footer_2" class="footer_block">
 					<h1>Contact us</h1>
 					<p>Gertrudes iela 2, Riga, Latvia<br>
 					info@platinumtravel.lv<br>
-					Mobile: +371 2913 5343<br></p>
+					Mobile: +371 26131343<br></p>
 					</div>
 					
 					<div id="footer_3" class="footer_block">

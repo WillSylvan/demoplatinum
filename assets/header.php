@@ -7,43 +7,6 @@
 			<div id="header">
 				<div class="logo"><a><img src="img/logo.png"></a></div>
 				
-				<div class="navigation">
-					<ul>
-						<li><a href="#header">home</a></li>
-						<li><a href="#about_us">about</a></li>
-						<li>
-						
-							<div class="dropdown1">
-								<button class="dropbtn1">tours</button>
-								<div class="dropdown1-content">
-								<ul>
-									<li>Австрия </li>
-									<li>Вьетнам </li>
-									<li>Греция </li>
-									<li>Индия </li>
-									<li>Испания</li>
-									<li>Италия </li>
-									<li>Кипр</li>
-									<li>Сейшелы</li>
-									<li>Сен-Бартелеми </li>
-									<li>Тайланд</li>
-									<li>Франция</li>
-									<li>Черногория </li>
-									<li>Швейцария</li>
-									<li>Хорватия</li>
-									<li>Мальдивы </li>
-									<li>Маврикий</li>
-									<li>Шри ланка</li>
-								</ul>
-								</div>
-							</div>
-						
-						</li>
-						<li><a href="#why_us">why us</a></li>
-						<li><a href="#footer">contacts</a></li>
-					</ul>
-				</div>
-				
 				<div class="menu"><a id="toggler" href="#"><img src="img/menu.png"></a></div>
 				<div id="box" style="display: none;">
 				<a id="toggler_close" style="display:none" href="#"><div class="close"><img src="img/close.png"></div></a>
@@ -57,49 +20,64 @@
                     </div>
                 </div>
 				<?php if(!$mailSuccess){ ?>
+				
 					<form id="form" name="orderform" method="post" action="index.php">
 						<div class="wrap">
 							<div class="block1 column">
 								<div class="text">
-									<a> Направление: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['place']) && $errors['place'] == 0){ echo $_POST['place']; } ?>" name="place" size="40" required="required" placeholder="Place" style="width: 15vw;"></span></a>
+									<a href="#header">ГЛАВНАЯ</a>
 								</div>
-								<!--ERRROR  -->
-								<?php echo ($error_message_p); ?>
-								<?php echo ($error_message_p2); ?>
-								<?php echo ($error_message_p3); ?>
-								<!--END-->
 							</div>
 
 							<div class="block2 column">
 								<div class="text">
-									<label>C:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['datefrom']) && $errors['datefrom'] == 0 ){ echo $_POST['datefrom']; } ?>" name="datefrom" type = "text" readonly="readonly" id = "datepicker-10"></spam>
+									<a href="#about_us">О НАС</a>
 								</div>
-
-								<?php echo ($error_message_df); ?>
-								<?php echo ($error_message_no); ?>
 							</div>
 
 							<div class="block2 column">
 								<div class="text">
-									<label>До:</label><span class="wpcf7-form-control-wrap date-87"><input class="wpcf7-date" value = "<?php if(isset($_POST['dateto']) && $errors['dateto'] == 0){ echo $_POST['dateto']; } ?>" name="dateto" type = "text" readonly="readonly" id = "datepicker-11"></spam>
+									<div class="dropdown1">
+										<button class="dropbtn1">ТУРЫ</button>
+										<div class="dropdown1-content">
+										<ul>
+											<li>Австрия </li>
+											<li>Вьетнам </li>
+											<li>Греция </li>
+											<li>Индия </li>
+											<li>Испания</li>
+											<li>Италия </li>
+											<li>Кипр</li>
+											<li>Сейшелы</li>
+											<li>Сен-Бартелеми </li>
+											<li>Тайланд</li>
+											<li>Франция</li>
+											<li>Черногория </li>
+											<li>Швейцария</li>
+											<li>Хорватия</li>
+											<li>Мальдивы </li>
+											<li>Маврикий</li>
+											<li>Шри ланка</li>
+										</ul>
+										</div>
+									</div>
 								</div>
-
-								<?php echo ($error_message_dt); ?>
-								<?php echo ($error_message_no); ?>
 							</div>
 
 							<div class="block3 column">
 								<div class="text">
-									<a>Количество человек: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['people']) && $errors['people'] == 0){ echo $_POST['people']; } ?>" name="people" class="wpcf7-date" placeholder="0" style="width: 4vw;"></span></a>
+									<a href="#why_us">ПОЧЕМУ МЫ</a>
 								</div>
-
-								<?php echo ($error_message_peo); ?>
-								<?php echo ($error_message_peo2); ?>
 							</div>
 
-							<div class="block4 block4_column">
-								
-
+							<div class="block3 column">
+								<div class="text">
+									<a href="#footer">КОНТАКТЫ</a>
+								</div>
+							</div>
+							
+							<div class="block4_column column">
+							
 								<div class="dropdown">
 									<button class="dropbtn">Оформить заказ</button>
 									<div class="dropdown-content">
