@@ -24,12 +24,13 @@
 	display: none;
 }	
 #header{
-	background-image:  url("../img/background_mobile.jpg"); 
-	height: 159vw;
+	background-image: unset; 
+	height: 65vw;
+	background-color: rgb(179, 164, 140);
 }
 .logo{
 	position: absolute;
-    top: 100vw;
+    top: 10vw;
     width: 100%;
     left: 35%;
 }
@@ -138,8 +139,7 @@ form .column {
 #content {
     height: auto;
     box-shadow: none;
-    margin-left: 0;
-    margin-right: 0;
+	width: 100%;
 }
 .info {
     padding-top: 20vw;
@@ -238,9 +238,7 @@ form .column {
     font-size: 11vw;
     font-weight: 500;
 }
-.wrap_2{
 
-}
 .blocks_logos {
     width: auto;
     height: 30vw;
@@ -251,10 +249,12 @@ form .column {
 .blocks {
     width: 70vw;
     height: 70vw;
+	display: block;
 }
 .content_info h1 {
     font-size: 6vw;
-	margin-top: 30vw;
+	top: 30vw;
+    position: relative;
 }
 .content_info h2 {
     font-size: 3vw;
@@ -498,6 +498,59 @@ form .column {
     padding-top: 10vw;
 	padding-bottom: 5vw;
 }
-
+.colormain {
+    height: 140vw;
+    background-position-x: 50%;
+}
+.colormain h3 {
+    font-size: 7vw;
+    bottom: -15vw;
+}
+.about_info div {
+    width: 94%;
+    height: 125vw;
+}
+.about_info h1 {
+    font-size: 7vw;
+}
+.about_info p {
+    font-size: 4vw;
+    line-height: 5vw;
+}
+#content-in-2 p {
+    font-size: 6vw;
+    line-height: 7vw;
+}
+#content-in-2 h5 {
+    font-size: 8vw;
+}
+.butpoezd button {
+    font-size: 5vw;
+    width: 100%;
+    border-radius: 2vw;
+    margin-bottom: 5vw;
+}
+.d1 {
+    margin-bottom: 0
+}
+.g {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 55vw;
+    background-position-x: 50%;
+}
+.d0 {
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 5vw;
+}
+#express h5 {
+    color: white;
+    font-size: 4vw;
+}
+#content-in {
+    padding-bottom: 0;
+}
 
 }

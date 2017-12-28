@@ -1,11 +1,13 @@
 /**/
 #header{
-	background-image: url(../img/background.jpg);
+	/*background-image: url(../img/background.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 20vw;
+    background-repeat: no-repeat;*/
+	height:20vw;
+    height: 15vw;
     position: relative;
     background-position-y: 35%;
+	background-color: rgb(179, 164, 140);
 }
 .logo{
 	position: relative;
@@ -52,7 +54,7 @@
     font-weight: 500;
 }
 .wrap{
-	width: 100%;
+	width: 88%;
     justify-content: center;
     position: absolute;
     bottom: 0;
@@ -61,6 +63,11 @@
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .block4_column{background: rgba(32, 30, 30, 0.671);}
 
@@ -72,7 +79,13 @@
     transition: all ease 0.3s;
 	margin: 0.2vw;
     margin-bottom: 0;
-	width: 14.3%;
+    width: 16.666%;
+}
+.block1{
+	margin-left:0;
+}
+.block4_column{
+	margin-right: 0;
 }
 .blackbutton{
 	background-color: rgb(179, 164, 140);
@@ -141,7 +154,7 @@ form .inputs input {
 
 .dropbtn {
 	background-color: rgba(255,255,255,0);
-    color: rgb(130, 130, 130);
+    color: white;
     padding: 0;
     font-size: 1vw;
     border: none;
@@ -211,7 +224,6 @@ form input[type=submit] {
     color: rgb(255, 255, 255);
     line-height: 1.7vw;
     cursor: pointer;
-    opacity: 0.8;
 	background: none;
 	border: none;
 	font-weight: bold;
@@ -271,7 +283,6 @@ form input[type=submit] {
 	background: rgba(105, 104, 104, 0.671);
 }
 .text{
-	padding-top: 1vw;
     text-align: center;
 	cursor: pointer;
 }

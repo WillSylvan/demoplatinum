@@ -47,8 +47,8 @@ input:focus {
 #content{
 	height: auto;
 	box-shadow: 0 0 10vw rgba(0,0,0,0.3);
-	margin-left: 6vw;
-	margin-right: 6vw;
+	width: 88%;
+    margin: auto;
 }
 /*information*/
 .info{
@@ -362,6 +362,7 @@ input:focus {
 	background-color: rgb(179, 164, 140);
 	box-shadow: 0px 6px 116.8px 29.2px rgba(188, 188, 188, 0.33);
 	border-radius: 0.2vw;
+	cursor: pointer;
 }
 .blocks_logos{
 	width: 19vw;
@@ -553,4 +554,321 @@ input:focus {
     color: rgb(248, 248, 248);
     font-family: "Roboto", sans-serif;
     font-size: 2vw;
+}
+
+/*PAGES*/
+#auverda{
+	background-image: url(../img/auverda.jpg);
+
+}
+#poezda{
+	background-image: url(../img/poezda.jpg);
+}
+#golf{
+	background-image: url(../img/golf.png);
+	background-position-y: 22%;
+}
+.colormain{
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 41vw;
+	width: 100%;	
+}
+.colormain h3, .colormain- h3{
+	margin: 0;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.2vw;
+    text-align: center;
+    bottom: 11vw;
+    position: relative;
+	opacity: 0.8
+}
+.about_info{}
+.about_info div{
+	width: 33.33%;
+    height: 33vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.about_info h1{
+	font-family: "Roboto", serif;
+	color: rgb(179, 165, 141);
+	font-weight: bold;
+	margin:0;
+	font-size: 2vw;
+	font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+.about_info p{
+	font-family: "Roboto", serif;
+    color: rgb(119, 106, 83);
+    margin: 0;
+    font-size: 1vw;
+    line-height: 1.2vw;
+    text-align: justify;
+    margin-bottom: 1.5vw;
+}
+#image-a1{
+	background-image: url(../img/mazas-bildes/2.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+#image-a2{
+	background-image: url(../img/mazas-bildes/1.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+#image-a3{
+	background-image: url(../img/mazas-bildes/3.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content-in, #content-in-2{
+	width: 80%;
+	margin: auto;
+	padding-bottom: 5vw;
+}
+#express{
+	flex-wrap: wrap;
+}
+#express a{
+	list-style-type: none;
+    font-size: unset;
+    font-family: unset;
+    color: unset;
+    line-height:unset;
+    margin: unset;
+    padding-bottom: unset;
+    cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+#content-in-2 h5{
+font-family: "Roboto", serif;
+    color: rgb(179, 165, 141);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8vw;
+    margin: 3vw;
+}
+#content-in-2 p{
+font-family: "Roboto", serif;
+    color: rgb(179, 165, 141);
+	margin: 0;
+    text-align: justify;
+    font-size: 1.2vw;
+    line-height: 2vw;
+}
+#content-in-2 p b{
+	font-size: 1.5vw;
+}
+#express h5{
+	font-family: "CormorantGaramond", serif;
+    color: rgb(179, 165, 141);
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 27vw;
+    font-size: 1.5vw;
+}
+#express div{
+
+
+}
+.d1{
+	width: 100% !important;
+	margin-bottom: 5vw;
+}
+.d0{
+	width: 50%;
+    height: 26vw;
+	margin-bottom: 5vw;
+}
+.g{
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+    height: 26vw;
+}
+.g0{background-image: url(../img/mazas-bildes2/5.jpg);}
+.g1{background-image: url(../img/mazas-bildes2/1.jpg);}
+.g2{background-image: url(../img/mazas-bildes2/2.jpg);}
+.g3{background-image: url(../img/mazas-bildes2/4.jpg);}
+.g4{background-image: url(../img/mazas-bildes2/3.jpg);}
+
+
+.butpoezd{
+	justify-content: space-evenly;
+    padding: 3vw;
+}
+.butpoezd button{
+    background-color: #b3a58d;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    border: none;
+    padding: 1vw 1vw;
+    width: 25vw;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+
+/*collection*/
+#platinum-collection{
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+#platinum-collection div{
+	width: 30%;
+    padding: 1vw;
+    border: 2px dashed rgba(0,0,0,0.2);
+	margin-bottom: 0.5vw
+}
+#platinum-collection h2{
+	margin: 0.5vw;
+    font-size: 1.5vw;
+    color: white;
+    background-color: rgba(32, 30, 30, 0.671);
+    padding: 0.7vw;
+}
+#platinum-collection h1{
+	font-size: 1.2vw;
+    margin: 0.5vw;
+    font-style: italic;
+    font-weight: bold;
+}
+#platinum-collection p{
+    margin: 0.5vw;
+    font-weight: 600;
+    font-size: 1.1vw;
+	margin-bottom: 2vw;
+}
+#platinum-collection img{
+    margin: 0.5vw;
+	width: 290px;
+}
+.it{
+	width:100% !important;
+	margin: 1vw;
+}
+.it div{
+    float: left;
+    height: 35vw;
+	border: none !important;
+}
+
+
+
+.countries{
+	justify-content: center;
+	text-align: center;
+	padding-bottom:3vw;
+}
+.countries div{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;	
+}
+.countries h1{
+	font-family: "Roboto", serif;
+    color: rgb(179, 165, 141);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8vw;
+    margin: 3vw;
+}
+.countries span{
+	font-family: 'Cormorant Garamond';
+}
+.map{
+	text-align:center;
+}
+.map img{
+	width:50%
+}
+
+
+.move {
+    flex-direction: column;
+    width: 14.5vw;
+    position: absolute;
+    left: 6vw;
+    top: 16vw;
+}
+.move button{
+	background: rgba(32, 30, 30, 0.671);
+    height: 3vw;
+    transition: all ease 0.3s;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 0.3vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.about-country{}
+.this{
+    margin-left: 18vw;
+    margin-right: 24vw;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+    min-height: 40vw;
+}
+.this p{
+    font-family: "Roboto", serif;
+    color: rgb(179, 165, 141);
+    margin: 0;
+    text-align: justify;
+    font-size: 1.2vw;
+    line-height: 2vw;
+	margin-bottom: 1vw;
+}
+.this a{
+	text-decoration: underline;
+	color: black;
+	font-size: 1.2vw;
+}
+.hotel-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 8vw;
+    top: 18vw;
+}
+.hotel-images img{
+	width: 17vw;
+	margin-top: 1vw;
+}
+.this table{
+	margin-top:2vw;
+}
+
+.count2, .count3, .count4, .count5, .count6, .count7{display:none;}
+
+@media screen and (max-width: 1300px){
+#platinum-collection img{
+    margin: 0.5vw;
+	width: 20vw;
+}
 }

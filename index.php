@@ -1,153 +1,3 @@
-<?php
-
-	$error_message_p = "";
-	$error_message_p2 = "";
-	$error_message_p3 = "";
-	$error_message_df = "";
-	$error_message_dt = "";
-	$error_message_no = "";
-	$error_message_peo = "";
-	$error_message_peo2 = "";
-	$error_message_n = "";
-	$error_message_n2 = "";
-	$error_message_pho = "";
-	$error_message_pho2 = "";
-	$error_message_em = "";
-	$mailSuccess = false;
-
-
-	if(isset($_POST['submit'])) {
-		$to = 'my.worktest94@gmail.com';
-
-		$place = $_POST["place"];
-		$datefrom = $_POST["datefrom"];
-		$dateto = $_POST["dateto"];
-		$people = $_POST["people"];
-
-		$name = $_POST["name"];
-		$phone = $_POST["phone"];
-		$email = $_POST["email"];
-
-		$error_message_p = "";
-		$error_message_p2 = "";
-		$error_message_p3 = "";
-		$error_message_df = "";
-		$error_message_dt = "";
-		$error_message_no = "";
-		$error_message_peo = "";
-		$error_message_peo2 = "";
-		$error_message_n = "";
-		$error_message_n2 = "";
-		$error_message_pho = "";
-		$error_message_pho2 = "";
-		$error_message_em = "";
-
-		$errors = ['place'=>0,'datefrom'=>0,'dateto'=>0, 'people'=>0, 'name'=>0, 'phone'=>0, 'email'=>0];
-
-
-		// Place
-		if(empty($place)) {
-			$error_message_p .= '<p class="red">Please enter place.</p>';
-			$errors['place'] = 1;
-		}
-
-		$email_exp_a = "/[^A-Za-z]/";
-		
-		if(preg_match($email_exp_a,$_POST["place"])) {
-			$error_message_p3 .= '<p class="red">only alphabet!</p>';
-			$errors['place'] = 1;
-		}
-
-		if(strlen($place) < 2){
-			$error_message_p2 .= '<p class="red">Name of place is too short.</p>';
-			$errors['place'] = 1;
-			
-		}
-		
-		// Date
-		if(empty($datefrom)) {
-        	$error_message_df .= '<p class="red">Please enter place.</p>';
-			$errors['datefrom'] = 1;
-		}
-
-		if(empty($dateto)) {
-        	$error_message_dt .= '<p class="red">Please enter place.</p>';
-			$errors['dateto'] = 1;
-		}
-
-		if($datefrom > $dateto ){
-			$error_message_no .= '<p class="red">Going back in time impossible.</p>';
-			$errors['datefrom'] = 1;
-			$errors['dateto'] = 1;
-		}
-
-		// People
-
-		if(strlen($people) < 1){
-			$error_message_peo .= '<p class="red">Enter number of peoples.</p>';
-			$errors['people'] = 1;
-		}
-
-		$error_message = "";
-    	$email_exp_n = "/[^0-9]/";
- 
-    	if(preg_match($email_exp_n,$_POST["people"])) {
-        	$error_message_peo2 .= '<p class="red_2">only numbers!</p>';
-			$errors['people'] = 1;
-		}
-		
-		// Name
-		if(strlen($name) < 2) {
-        	$error_message_n .= '<p class="red_1">Name too short.</p>';
-			$errors['name'] = 1;
-		}
-		
-		if(preg_match($email_exp_a,$_POST["name"])) {
-			$error_message_n2 .= '<p class="red_1">only alphabet!</p>';
-			$errors['name'] = 1;
-		}
-
-		// Phone
-
-		if(strlen($phone) < 7) {
-        	$error_message_pho .= '<p class="red_1">phonenumber too short.</p>';
-			$errors['phone'] = 1;
-		}
-
-		$email_exp_n = "/[^0-9]/";
-		
-		if(preg_match($email_exp_n,$_POST["phone"])) {
-			$error_message_pho2 .= '<p class="red_1">only numbers!</p>';
-			$errors['phone'] = 1;
-		}
-
-		// EMAIL 
-		$error_message = "";
-    	$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-	
-    	if(!preg_match($email_exp,$email)) {
-        	$error_message_em .= '<p class="red_1">Please enter email!</p>';
-			$errors['email'] = 1;
-    	}
-
-		if( empty($error_message_p) && empty($error_message_p2) && empty($error_message_p3) && empty($error_message_df) && empty($error_message_dt)
-			&& empty($error_message_no) && empty($error_message_peo) && empty($error_message_peo2) && empty($error_message_n) && empty($error_message_n2)
-			&& empty($error_message_pho) && empty($error_message_pho2) && empty($error_message_em) ) 
-		{
-			$subject = 'the subject';
-			$message = "Направление:" . " " . $place . "\r\n" . "С:" . " " . $datefrom . "\r\n" . "Do:" . " " . $dateto . "\r\n" . "Сколько людей:" . " " . $people . "\r\n" . "\r\n" . "Name:" . " " . $name . "\r\n" . "Phone:" . " " . $phone . "\r\n" . "Email" . " " . $email;
-			'Reply-To:' . " " . $mail . "\r\n" .
-			'X-Mailer: PHP/' . phpversion();
-
-			if(mail($to, $subject, $message, $headers)){
-				
-				$mailSuccess = true;
-
-			}
-		}
-	}
-?>
-
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
@@ -162,106 +12,17 @@
       	<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
       	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     	<title>platinum travel</title>
-		
-		<script>
-			$(document).ready(function(){
-				$("#toggler").click(function () {
-					$("#box").css("display","block");
-					$("#toggler_close").css("display","block");
-			});
-			$("#toggler_close").click(function () {
-					$("#box").css("display","none");
-					$("#toggler_close").css("display","none");
-			});
-			$("#closeclose").click(function () {
-					$("#box").css("display","none");
-					$("#toggler_close").css("display","none");
-			});
-			$("#closeclose1").click(function () {
-					$("#box").css("display","none");
-					$("#toggler_close").css("display","none");
-			});
-			$("#closeclose2").click(function () {
-					$("#box").css("display","none");
-					$("#toggler_close").css("display","none");
-			});
-			$("#closeclose3").click(function () {
-					$("#box").css("display","none");
-					$("#toggler_close").css("display","none");
-			});
-			$("#closeclose4").click(function () {
-					$("#box").css("display","none");
-					$("#toggler_close").css("display","none");
-			});
-			});
-		</script>
-		<script>
-			$(document).ready(function(){
-			$("#toggler_box").click(function () {
-				$( "#info" ).slideToggle( "slow", function() {
-			});
-			});
-			});
-		</script>
-		<script>
-    		$(document).ready(function(){
-			$('a[href^="#"]').bind('click.smoothscroll',function (e) {
- 			e.preventDefault();
- 
-			var target = this.hash,
- 			$target = $(target);
- 
-			$('html, body').stop().animate({
- 				'scrollTop': $target.offset().top
- 			}, 500, 'swing', function () {
+		<style>
+		#header{
+			background-image: url(img/background-1.jpg) !important;
+			background-size: cover !important;
+			background-repeat: no-repeat !important;
+			height: 45vw !important;
+			position: relative;
+			background-position-y: 90% !important;
+		}
+		</style>
 
- 			window.location.hash = target;
-			});
-			});
-			});
-		</script>
-		<!--for time  -->
-      	<!-- Javascript -->
-      	<script>
-         	$(function() {
-            	$( "#datepicker-10" ).datepicker({
-					minDate: 0,
-					changeMonth:true,
-					changeYear:true,
-					numberOfMonths:[1,1]
-            	});
-         	});
-      	</script>
-		<script>
-         	$(function() {
-            	$( "#datepicker-11" ).datepicker({
-					minDate: 0,
-					changeMonth:true,
-					changeYear:true,
-					numberOfMonths:[1,1]
-            	});
-         	});
-      	</script>
-		<script>
-         	$(function() {
-            	$( "#datepicker-12" ).datepicker({
-					minDate: 0,
-					changeMonth:true,
-					changeYear:true,
-					numberOfMonths:[1,1]
-            	});
-         	});
-      	</script>
-		<script>
-         	$(function() {
-            	$( "#datepicker-13" ).datepicker({
-					minDate: 0,
-					changeMonth:true,
-					changeYear:true,
-					numberOfMonths:[1,1]
-            	});
-         	});
-      	</script>
 
 	</head>
 	
@@ -389,17 +150,23 @@
 					</div>
 					
 					<div class="wrap_2">
-							<div class="blocks" id="first">
-								<div class="content_info"><h1>Поезд Orient-Express</h1></div>
-							</div>
-							<div class="blocks" id="second">
-								<div class="content_info"><h1>Гольф</h1>
+							<a href="poezda.php">
+								<div class="blocks" id="first">
+									<div class="content_info"><h1>Поезда</h1></div>
 								</div>
-							</div>
-							<div class="blocks" id="third">
-								<div class="content_info"><h1>Аюверда</h1>
+							</a>
+							<a href="golf.php">
+								<div class="blocks" id="second">
+									<div class="content_info"><h1>Гольф</h1>
+									</div>
 								</div>
-							</div>
+							</a>
+							<a href="auverda.php">
+								<div class="blocks" id="third">
+									<div class="content_info"><h1>Аюрведа</h1>
+									</div>
+								</div>
+							</a>
 					</div>
 					
 					<div id="why_us" class="block_why_us">
