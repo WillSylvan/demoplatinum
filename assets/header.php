@@ -251,7 +251,7 @@
                     <div>
                     <ul class="box_li">
                     <li><a href="index.php" id="closeclose">Главная</a></li>
-                    <li><a href="#" id="closeclose1">Страны</a></li>
+                    <li><a href="strani.php" id="closeclose1">Страны</a></li>
                     <li><a href="#" id="closeclose2">О нас</a></li>
                     <li><a href="#" id="closeclose4">Контакты</a></li>
                     </ul>
@@ -286,15 +286,15 @@
 											<li><a href="germany.php">Германия</a></li>
 											<li><a href="greece.php">Греция</a></li>
 											<li><a href="india.php">Индия</a></li>
-											<li><a href="spain.php">---Испания</a></li>
-											<li><a href="italy.php">---Италия</a></li>
-											<li><a href="kipr.php">---Кипр</a></li>
+											<li><a href="spain.php">Испания</a></li>
+											<li><a href="italy.php">Италия</a></li>
+											<li><a href="kipr.php">Кипр</a></li>
 											<li><a href="seychelles.php">Сейшелы</a></li>
-											<li><a href="caribs.php">---Карибы</a></li>
+											<li><a href="caribs.php">Карибы</a></li>
 											<li><a href="thailand.php">Тайланд</a></li>
-											<li><a href="france.php">---Франция</a></li>
+											<li><a href="france.php">Франция</a></li>
 											<li><a href="montenegro.php">Черногория</a></li>
-											<li><a href="switzerland.php">---Швейцария</a></li>
+											<li><a href="switzerland.php">Швейцария</a></li>
 										</ul>
 										</div>
 									</div>

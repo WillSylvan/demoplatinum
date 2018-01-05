@@ -303,8 +303,14 @@
 							<div class="text_block">
 							<h3>Тур в Марокко</h3>
 							<div class="text_border"></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
-							<p class="signature">-Martin</p>
+							<p>Марокко манит туристов арабской и африканской экзотикой,
+							отличными пляжами Атлантики
+							и бескрайней пустыней Сахара.
+							Древний Фес и белоснежная Ка-
+							сабланка, отдых в Эс-Сувейре и
+							Агадире, колоритные базары и
+							восхитительная кухня</p>
+							<!--<p class="signature">-Martin</p>-->
 							</div>
 							</div>	
 						</div>
@@ -315,8 +321,16 @@
 							<div class="text_block">
 							<h3>Тур в Японию</h3>
 							<div class="text_border"></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
-							<p class="signature">-Martin</p>
+							<p>Страна восходящего солнца
+							Япония — кладезь утонченной
+							экзотики. Суперсовременный
+							Токио и живописная провин-
+							ция, снежная шапка Фудзи и
+							сакура в цвету, великолепные
+							пляжи островов Окинава и
+							древние памятники синтоизма
+							</p>
+							<!--<p class="signature">-Martin</p>-->
 							</div>
 							</div>	
 						</div>
@@ -327,8 +341,9 @@
 							<div class="text_block">
 							<h3>Другие туры</h3>
 							<div class="text_border"></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
-							<p class="signature">-Martin</p>
+							<p>В нашей коллекции Вы также найдете отели, находящиеся на морских курортах (Греция, Италия, Кипр, Карибские острова, Сейшельские острова, Таиланд, Франция), или на озерах (Италия, Швейцария) горнолыжные отели - в Куршевеле, Санкт-Морице и Гштааде, городские отели - в Лондоне, Париже, Вене, Цюрихе…
+							</p>
+							<!--<p class="signature">-Martin</p>-->
 							</div>
 							</div>	
 						</div>

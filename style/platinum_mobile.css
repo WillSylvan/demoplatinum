@@ -25,7 +25,7 @@
 }	
 #header{
 	background-image: unset; 
-	height: 65vw;
+	height: 65vw !important;
 	background-color: rgb(179, 164, 140);
 }
 .logo{
@@ -553,4 +553,51 @@ form .column {
     padding-bottom: 0;
 }
 
+.strani{
+	margin-top: 6vw !important;
+    text-align: center;
+}
+.map img {
+    width: 100%;
+}
+.countries div {
+    width: 100%;
+}
+.countries h1 {
+    font-size: 4vw;
+    margin: 0;
+}
+.colormain h3, .colormain- h3 {
+    font-size: 6vw;
+}
+.hotel-images {
+	display:none
+}
+.move {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: -7vw;
+}
+.move button {
+    height: 8vw;
+    font-size: 4vw;
+}
+.this {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+    min-height: 40vw;
+    margin: 6vw;
+}
+.this p {
+    font-size: 4vw;
+    line-height: unset;
+}
+.this a {
+    font-size: 4vw;
+    line-height: 5vw !important;
+}
 }
