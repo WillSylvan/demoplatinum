@@ -115,6 +115,7 @@ margarita.alijeva@hotelalabriga.com
 						<p>
 						<b>TO STAY IN ALABRIGA HOTEL & HOME SUITES</b>
 						</p>
+						<img class="imagess" src="img/hotels/46.jpg"><br>
 						<p>
 						
 						

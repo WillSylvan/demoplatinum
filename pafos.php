@@ -89,7 +89,7 @@ e-commerce@thanoshotels.com
 						
 						
 						</p>
-						
+						<img class="imagess" src="img/hotels/54.jpg"><br>
 						<p><b>НОМЕР INLAND VIEW</b></p>
 						<p>
 Размер номеров - 28 кв. м. 
@@ -174,7 +174,7 @@ e-commerce@thanoshotels.com
 						</p>
 						<p><b>Рестораны и бары отеля Annabelle</b></p>
 						
-						
+						<img class="imagess" src="img/hotels/55.jpg"><br>
 						<p><b>AMOROSA</b></p>
 						<p>
 Ресторан высокой кухни, в котором можно поужинать при свечах под мелодичный аккомпанемент фортепиано в живом исполнении. Меню alacarte или tabled’hôte. Персонализированное и элегантное обслуживание.

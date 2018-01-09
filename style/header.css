@@ -10,12 +10,13 @@
 	background-color: rgb(179, 164, 140);
 }
 .logo{
-	position: relative;
+	position: absolute;
     top: 2vw;
     left: 6vw;
+	width:6vw
 }
 .logo img{
-	width: 6%;
+	width: 100%;
 }
 .navigation{
 	position: relative;

@@ -275,9 +275,9 @@
 
 							<div class="block2 column">
 								<div class="text">
-									<div class="dropdown1">
-										<button class="dropbtn1">СТРАНЫ</button>
-										<div class="dropdown1-content">
+									<!--<div class="dropdown1">-->
+										<a href="austria.php"><!--<button class="dropbtn1">-->СТРАНЫ</a>
+										<!--<div class="dropdown1-content">
 										<ul>
 											<li><a href="austria.php">Австрия</a></li>
 											<li><a href="azerbaijan.php">Азербайджан</a></li>
@@ -297,7 +297,7 @@
 											<li><a href="switzerland.php">Швейцария</a></li>
 										</ul>
 										</div>
-									</div>
+									</div>-->
 								</div>
 							</div>
 

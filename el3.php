@@ -106,7 +106,7 @@ Mercedes S-Class (такси) 150.00 € за машину в одну стор�
 						<p>
 						<b>TO STAY AT ELOUNDA GOLF & SPA RESORT</b>
 						</p>
-
+<img class="imagess" src="img/hotels/41.jpg"><br>
 						<p>
 						<b>Porto sea view rooms</b>
 						</p>
@@ -171,6 +171,7 @@ Mercedes S-Class (такси) 150.00 € за машину в одну стор�
 						<p>
 							<b>TO EAT IN ELOUNDA GOLF & SPA RESORT</b>  
 						</p>
+						<img class="imagess" src="img/hotels/42.jpg"><br>
 						<p>
 							<b>Ресторан “Nafsika”</b>
 						</p>

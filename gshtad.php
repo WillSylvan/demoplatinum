@@ -162,7 +162,7 @@ Park Gstaad - Цюрих 1200 CHF
 						<p>
 						<b>НОМЕРА И SUITES</b>
 						</p>
-						
+						<img class="imagess" src="img/hotels/74.jpg"><br>
 						<p><b>
 Количество номеров каждой категории</b></p>
 						<p>
@@ -296,6 +296,7 @@ Avenue Montagne – это, в первую очередь, лучшие рег�
 					<p>
 					<b>TO SPA IN PARK GSTAAD</b>
 					</p>
+					<img class="imagess" src="img/hotels/75.jpg"><br>
 					<p>
 					
 Добро пожаловать в SPA Park Gstaad.<br><br>

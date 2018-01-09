@@ -102,7 +102,7 @@
 						<br><br>
 						Кроме того, на территории парка расположились 3 виллы (380 кв. м), где гостям будет обеспечена максимальная приватность.
 						</p>
-						
+						<img class="imagess" src="img/hotels/25.jpg"><br>
 					</div>
 					
 					<div class="this count4">
@@ -118,6 +118,7 @@
 							<br><br>
 							В Chenot Palace доктора рекомендуют одну из двух диет -  гости смогут питаться или по системе детокс, или  биолайт. 
 						</p>
+						<img class="imagess" src="img/hotels/26.jpg"><br>
 					</div>
 					
 					<div class="this count5">

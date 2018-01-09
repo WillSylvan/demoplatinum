@@ -95,7 +95,7 @@ e-commerce@thanoshotels.com
 						
 						
 						</p>
-						
+						<img class="imagess" src="img/hotels/52.jpg"><br>
 						<p>
 						<b>Inland View Room (28 кв. м):</b>
 						</p>
@@ -186,7 +186,7 @@ NB: Во все вышеуказанные номера можно постав�
 <b>Рестораны и Бары отеля Almyra</b>
 						
 						</p>
-						
+						<img class="imagess" src="img/hotels/53.jpg"><br>
 						<p>
 							<b>Лобби бар Helios</b>
 						</p>

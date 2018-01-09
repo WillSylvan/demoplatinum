@@ -131,7 +131,7 @@ marcello.cicalo@ihchotels.it<br>
 						
 						
 						</p>
-						
+						<img class="imagess" src="img/hotels/108.jpg"><br>
 						<p>
 <b>Oasi Garden (20 - 25 кв м)</b><br>
 Идеальные номера для молодых пар,  расположенные на первом этаже комплекса. Стеклянные двери ведут из номера на террасу с роскошным садом.
@@ -166,7 +166,7 @@ marcello.cicalo@ihchotels.it<br>
 					<div class="this count4">
 						<p>
 							<b>TO EAT AT CHIA LAGUNA</b>  
-						</p>
+						</p><img class="imagess" src="img/hotels/109.jpg"><br>
 						<p>
 Ресторан CLUB HOUSE предлагает гостям отеля Spazio Oasi Prestige 4* завтрак и ужин(a la carte). Гости номеров категории Oasi Balcony Suite завтракают и ужинают в ресторане LaTerraza, расположенном в отеле Laguna5*.
 						

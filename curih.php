@@ -123,6 +123,7 @@ NB: трансферы производятся на автомобилях BMW 
 						<p>
 						<b>TO STAY AT BAUR AU LAC</b>
 						</p>
+						<img class="imagess" src="img/hotels/70.jpg"><br>
 						<p>
 						
 120 номеров: 75 комнат, 27 Джуниор Сюитов и 18 Сюитов.
@@ -180,6 +181,7 @@ NB: трансферы производятся на автомобилях BMW 
 						<p>
 							<b>TO EAT IN BAUR AU LAC</b>  
 						</p>
+						<img class="imagess" src="img/hotels/71.jpg"><br>
 						<p>
 Рестораны и бары:
 						

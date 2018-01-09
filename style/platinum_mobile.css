@@ -600,4 +600,6 @@ form .column {
     font-size: 4vw;
     line-height: 5vw !important;
 }
+.map div:first-child {display:none}
+.map{margin-bottom: 10vw;}
 }
