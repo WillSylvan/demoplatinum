@@ -225,7 +225,7 @@ The Lanesborough расположен в самом центре Лондона,
 					<p>
 					<b>TO SPA IN THE LANESBOROUGH</b>
 					</p>
-					
+					<img class="imagess" src="img/hotels/116.jpg"><br>
 					<p>
 					<b>The Lanesborough Club & Spa</b>
 
@@ -276,7 +276,7 @@ The Lanesborough расположен в самом центре Лондона,
 					<p>
 					
 					<b>Детская программа</b><br>
- 
+ <img class="imagess" src="img/hotels/117.jpg"><br>
 					Приветственный подарок
 					<br>Приятные сюрпризы каждый день
 					<br>Детского размера банные халатики и тапочки

@@ -210,7 +210,7 @@ SPA-Центр Fonteverde располагает новейшим оборудо
 					<p>
 					<b>TO DO IN FONTEVERDE </b>
 					</p>
-					
+					<img class="imagess" src="img/hotels/162.jpg"><br>
 					<p>
 Природа Тосканы невероятна красива и разнообразна. С изменением времени года она меняется на глазах. Откройте для себя новые краски этих времен года
 					</p>
@@ -240,6 +240,7 @@ SPA-Центр Fonteverde располагает новейшим оборудо
 					<div class="this count6">
 					
 					<p><b>TO SPA IN FONTEVERDE </b></p>
+					<img class="imagess" src="img/hotels/163.jpg"><br>
 						<p>
 <b>SPA-Центр</b><br><br>
 
@@ -256,6 +257,7 @@ SPA-Центр Fonteverde располагает новейшим оборудо
 					<div class="this count7">
 					
 					<p><b>TO THE KIDS IN FONTEVERDE </b></p>
+					<img class="imagess" src="img/hotels/164.jpg"><br>
 						<p>
 Для маленьких гостей отеля:
 <br><br>

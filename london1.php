@@ -298,7 +298,7 @@ Dress code: smart casual.
 					</div>
 					
 					<div class="this count7">
-					
+					<img class="imagess" src="img/hotels/115.jpg"><br>
 					<p>
 					
 					<b>Путеводитель по Зальцбургу для наших самых маленьких гостей и для тех, кто молод душой!</b><br>

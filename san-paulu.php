@@ -162,7 +162,7 @@
 					<p>
 					<b>TO SPA IN PALACIO TANGARA</b>
 					</p>
-					
+					<img class="imagess" src="img/hotels/114.jpg"><br>
 					<p>
 
 					Flora Spa by Sisley<br><br>

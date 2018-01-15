@@ -256,7 +256,7 @@ Koori  - это настоящий дух Японии в самом сердц�
 					<b>TO DO IN L'APOGEE COURCHEVEL</b>
 					</p>
 					
-
+<img class="imagess" src="img/hotels/143.jpg"><br>
 					
 					<p><b>КУРШЕВЕЛЬ-1850 – ОДИН ИЗ ЛУЧШИХ МИРОВЫХ КУРОРТОВ ДЛЯ КАТАНИЯ НА ГОРНЫХ ЛЫЖАХ</b></p>
 
@@ -289,7 +289,7 @@ Koori  - это настоящий дух Японии в самом сердц�
 					
 					<div class="this count6">
 					<p><b>TO SPA IN L'APOGEE COURCHEVEL</b></p>
-					
+					<img class="imagess" src="img/hotels/144.jpg"><br>
 					<p>
 Добро пожаловать в SPA L’Apogée! <br><br>
 
@@ -307,6 +307,7 @@ SPA L'Apogée – это маленький рай для ценителей с�
 					
 					<div class="this count7">
 					<p><b>TO THE KIDS IN L'APOGEE COURCHEVEL</b></p>
+					<img class="imagess" src="img/hotels/145.jpg"><br>
 					<p>
 Максимальный комфорт для семей с детьми:<br><br>
 

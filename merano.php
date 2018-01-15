@@ -279,7 +279,7 @@ info@palace.it
 					<p>
 					<b>TO SPA IN HOTEL PALACE MERANO</b>
 					</p>
-					
+					<img class="imagess" src="img/hotels/156.jpg"><br>
 					<p>
 Espace Henri Chenot
 Новый MEDICAL REVITAL на 5 этаже Palace Merano - это более 1500 кв м светлого и комфортного пространства, где располагаются кабинеты врачей, лаборатория, процедурные кабинеты. Подробнее...

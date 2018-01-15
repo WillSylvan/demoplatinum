@@ -340,7 +340,7 @@ Bleu Palombe - 2 этаж - салон и спальная, камин
 					<p>
 					<b>TO DO IN LES PRES D'EUGENIE</b>
 					</p>
-					
+					<img class="imagess" src="img/hotels/151.jpg"><br>
 					<p>
 La Ferme Thermale® d'Eugenie (Термальная Ферма императрицы Евгении). Целительные свойства термальной воды и лекарственных растений.
 SPA-центр отеля - La Ferme Thermale® d'Eugenie (Термальная Ферма императрицы Евгении).
@@ -363,6 +363,7 @@ SPA-центр отеля - La Ferme Thermale® d'Eugenie (Термальная 
 					<div class="this count6">
 					
 						<p><b>TO SPA IN LES PRES D'EUGENIE</b></p>
+						<img class="imagess" src="img/hotels/152.jpg"><br>
 						<p>							
 La Ferme Thermale® занимает здание, в котором когда-то в XVIII веке располагалась традиционная ландская ферма. Теперь же, сохранив свое очертание и природный стиль, оно является уникальным термальным SPA-центром, где на площади в 1000 м² расположились 21 процедурный кабинет, хаммам, залы для отдыха и небольшой бутик.
  

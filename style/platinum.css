@@ -67,7 +67,7 @@ input:focus {
 .info h1{
 	font-size: 1.8vw;
 	font-family: 'Cormorant Garamond';
-	color: rgb(113, 103, 87);
+	color: rgb(152, 136, 111);
 	font-weight: bold;
 	/*font-style: italic;*/
 	line-height: 1.2;
@@ -77,7 +77,7 @@ input:focus {
 .info p{
 	font-size: 1vw;
 	font-family: "Roboto", sans-serif;
-	color: rgb(113, 103, 87);
+	color: rgb(152, 136, 111);
 /*	font-style: italic;*/
 	line-height: 1.389;
 	text-align: center;
@@ -97,7 +97,7 @@ input:focus {
 #info h1{
 	font-size: 1.8vw;
 	font-family: 'Cormorant Garamond';
-	color: rgb(113, 103, 87);
+	color: rgb(152, 136, 111);
 	font-weight: bold;
 	/*font-style: italic;*/
 	line-height: 1.2;
@@ -107,7 +107,7 @@ input:focus {
 #info p{
 	font-size: 1vw;
 	font-family: "Roboto", sans-serif;
-	color: rgb(113, 103, 87);
+	color: rgb(152, 136, 111);
 	font-style: italic;
 	line-height: 1.389;
 	text-align: center;
@@ -172,7 +172,7 @@ input:focus {
 .text_on_photo h2{
 	font-size: 3.5vw;
 	font-family: "Cormorant Garamond";
-	color: rgb(113, 103, 87);
+	color: rgb(152, 136, 111);
 	font-weight: 500;
 	line-height: 1.2;
 	text-align: center;
@@ -186,7 +186,6 @@ input:focus {
 	color: rgb(113, 103, 87);
 	line-height: 1.4;
 	text-align: center;
-	opacity: 0.6;
 	margin: 0;
     padding: 0;
 }
@@ -509,7 +508,7 @@ input:focus {
 .slogan h4{
 	font-size: 1.7vw;
 	font-family: "CormorantGaramond";
-	color: rgb(113, 103, 87);
+	color: rgb(152, 136, 111);
 	font-weight: bold;
 	line-height: 1.2;
 	text-align: center;
@@ -517,7 +516,7 @@ input:focus {
 .slogan p{
 	font-size: 1.1vw;
 	font-family: "Roboto", sans-serif;
-	color: rgb(113, 103, 87);
+	color: rgb(152, 136, 111);
 	font-style: italic;
 	line-height: 1.563;
 	text-align: center; 
@@ -609,7 +608,7 @@ input:focus {
 }
 .about_info p{
 	font-family: "Roboto", serif;
-    color: rgb(119, 106, 83);
+    color: rgb(152, 136, 111);
     margin: 0;
     font-size: 1vw;
     line-height: 1.2vw;
@@ -654,7 +653,7 @@ input:focus {
 }
 #content-in-2 h5{
 	font-family: "Roboto", serif;
-    color: rgb(113, 103, 87);
+    color: rgb(152, 136, 111);
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
@@ -663,7 +662,7 @@ input:focus {
 }
 #content-in-2 p{
 	font-family: "Roboto", serif;
-    color: rgb(113, 103, 87);
+    color: rgb(152, 136, 111);
 	margin: 0;
     text-align: justify;
     font-size: 1.2vw;
@@ -674,7 +673,7 @@ input:focus {
 }
 #express h5{
 	font-family: "CormorantGaramond", serif;
-    color: rgb(113, 103, 87);
+    color: rgb(152, 136, 111);
     font-weight: 600;
     margin: 0;
     text-transform: uppercase;
@@ -788,7 +787,7 @@ input:focus {
 }
 .countries h1{
 	font-family: "Roboto", serif;
-    color: rgb(78, 71, 60);
+    color: rgb(152, 136, 111);
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
@@ -865,7 +864,7 @@ input:focus {
 }
 .this p{
     font-family: "Roboto", serif;
-    color: rgb(113, 103, 87);
+    color: rgb(152, 136, 111);
     margin: 0;
     text-align: justify;
     font-size: 1.2vw;
@@ -874,7 +873,7 @@ input:focus {
 }
 .this a{
 	text-decoration: underline;
-	color: rgb(113, 103, 87);
+	color: rgb(152, 136, 111);
 	font-size: 1.2vw;
 }
 .hotel-images{

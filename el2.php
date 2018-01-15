@@ -227,7 +227,7 @@ KOH – это совместный проект отеля Elounda Peninsula Al
 ALL SUITE HOTEL</b>
 					</p>
 					
-
+<img class="imagess" src="img/hotels/11.jpg"><br>
 					
 					<p><b>Активный отдых и спорт для взрослых и детей в отеле porto elounda GOLF & SPA RESORT</b></p>
 

@@ -252,7 +252,7 @@ www.reginaisabella.it
 					<p>
 					<b>TO DO IN L'ALBERGO DELLA REGINA ISABELLA RESORT & HEALTH SPA</b>
 					</p>
-					
+					<img class="imagess" src="img/hotels/168.jpg"><br>
 					<p><b>ТЕРМАЛЬНЫЙ ЦЕНТР REGINA ISABELLA</b></p>
 						<p>
 Термальный центр Regina Isabella является частью отеля L'Albergo della Regina Isabella*****L - Resort & Health Spa. Здесь предлагается широчайший выбор оздоровительных и эстетических процедур, основанных на целебных свойствах термальных вод и термальных грязей; к услугам гостей разнообразные массажи, активная и пассивная гимнастика, диетическое питание.
@@ -282,7 +282,7 @@ www.reginaisabella.it
 					
 					<div class="this count6">
 <p><b>TO SPA IN L'ALBERGO DELLA REGINA ISABELLA RESORT & HEALTH SPA
- </b></p>
+ </b></p><img class="imagess" src="img/hotels/169.jpg"><br>
  <p><b>ТЕРМАЛЬНЫЙ ЦЕНТР REGINA ISABELLA
  </b></p>
 						<p>

@@ -246,6 +246,7 @@
 					</div>
 					
 					<div class="this count6">
+					<img class="imagess" src="img/hotels/110.jpg"><br>
 						<p>
 						
 						Побалуйте себя в новом SPA центре отеля Sacher Wien!

@@ -207,8 +207,8 @@ Reservation: exvitt@exvitt.it
 					
 					<p>
 					<b>TO DO IN GRAND HOTEL EXCELSIOR VITTORIA</b>
-
-
+<br>
+<img class="imagess" src="img/hotels/170.jpg"><br>
 					<p>
 <b>Пляж в Сорренто</b><br>
  
@@ -242,6 +242,7 @@ SPA-центр отеля предлагается широчайший выбо
 					<div class="this count6">
 					
 					<p><b>TO SPA IN GRAND HOTEL EXCELSIOR VITTORIA</b></p>
+					<img class="imagess" src="img/hotels/171.jpg"><br>
 						<p>
 SPA Boutique  La Serra  расположен в самом центре огромного  парка Grand Hotel Excelsior Vittoria,  среди старых олив, апельсиновых и лимонных деревьев и пушистых сосен. Это идеальное место для того,  чтобы отдохнуть, восстановить свои силы и внутренний баланс организма.
 <br><br>
@@ -289,6 +290,7 @@ SPA Boutique  La Serra  расположен в самом центре огро
 					<div class="this count7">
 					
 					<p><b>TO THE KIDS IN GRAND HOTEL EXCELSIOR VITTORIA</b></p>
+						<img class="imagess" src="img/hotels/172.jpg"><br>
 						<p>
 В Grand Hotel Excelsior Vittoria к услугам маленьких гостей:<br><br>
  

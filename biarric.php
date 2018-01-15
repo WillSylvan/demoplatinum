@@ -291,7 +291,7 @@ IMPERIAL RESORT & SPA</b>
 					<b>TO DO IN HOTEL DU PALAIS,
 IMPERIAL RESORT & SPA</b>
 					</p>
-					
+					<img class="imagess" src="img/hotels/153.jpg"><br>
 						<p><b>SPA</b></p>	
 						<p>
 В 2006 году в отеле Du Palais открылся единственный в своем роде Императорский SPA-центр при участии Дома Guerlain (площадь 2900 кв. м)
@@ -357,6 +357,7 @@ IMPERIAL RESORT & SPA</b>
 					
 					<div class="this count6">
 					<p><b>TO SPA IN HOTEL DU PALAIS, IMPERIAL RESORT & SPA</b></p>
+					<img class="imagess" src="img/hotels/154.jpg"><br>
 					<p><b>Императорский SPA-центр
 при содействии</b></p>
 					<p>
@@ -386,6 +387,7 @@ IMPERIAL RESORT & SPA</b>
 					
 					<p><b>TO THE KIDS IN HOTEL DU PALAIS,
 IMPERIAL RESORT & SPA</b></p>
+<img class="imagess" src="img/hotels/155.jpg"><br>
 
 <p><b>Hotel Du Palais - детям</b></p>
 					<p>

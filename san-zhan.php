@@ -283,7 +283,7 @@ The Beach Shack – это самый молодой ресторан на пл�
 					<p>
 					<b>TO SPA IN JUMBY BAY ISLAND, ANTIGUA - WEST INDIES</b>
 					</p>
-
+<img class="imagess" src="img/hotels/127.jpg"><br>
 					
 					<p><b>СПА-центр SPA Sense®</b></p>
 
