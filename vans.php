@@ -55,55 +55,7 @@ Chateau Saint-Martin & SPA - это настоящие врата рая. Не �
 В 2015 г. Château Saint-Martin & Spa вошел в Топ-25 роскошных отелей Франции по версии Travelers’ Choice Awards сайта TripAdvisor					
 						
 						</p>
-						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Chateau Saint-Martin & SPA<br>
-2490 Avenue des Templiers BP 102<br>
-06142 Vence Cedex France<br>
-Tel: +33 4 93 58 02 02<br>
-Fax: +33 4 93 24 08 91<br>
-www.chateau-st-martin.com	<br><br>
 
-
- 
-Olivia Pare<br>
-Head of Sales<br>
-Olivia.Pare@oetkercollection.com<br>
-Tel.:+33 4 92 93 32 33<br><br>
-
-
-Mr. Clement Hernandez<br>
-Concierge<br>
-Tel: +33 4 93 58 02 02<br>
-Fax: +33 4 93 24 08 91<br>
-Concierge.csm@oetkercollection.com	<br>
-
-								</p> 
-							</td>
-							<td>
-								<p>
-Mr. Duarte Bon de Sousa<br>
-General Manager<br>
-Tel: +33 4 93 58 02 02<br>
-Direction.csm@oetkercollection.com<br><br>
-
-Ms. Julie Debas<br>
-Regional Head of Sales<br>
-Tel: +33 4 92 93 30 08<br>
-Fax: +33 4 93 67 13 83<br>
-Reservations.csm@oetkercollection.com<br><br>
-
-Reservations Department<br>
-Tel :  +33 4 93 61 39 01<br>
-Fax : +33 4 93 67 76 04<br>
-Reservations.hdcer@oetkercollection.com								
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

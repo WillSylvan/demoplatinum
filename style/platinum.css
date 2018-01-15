@@ -446,9 +446,10 @@ input:focus {
     transition: all ease 0.3s;
 }
 .background1{
-	background-image: url(../img/photo.jpg);
+	background-image: url(../img/poezda.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+	background-position: 50%;
 }
 .background3{
 	background-image: url(../img/photo1.jpg);

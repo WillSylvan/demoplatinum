@@ -58,35 +58,7 @@ FONTEVERDE расположен на границе Тосканы, Лацио �
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-FONTEVERDE <br>
-53040 San Casciano dei Bagni<br>
-Localita Terme 1, Italia<br>
-Tel. 39 - 0578 - 57241<br>
-Fax 39 0578 572200<br>
-www.fonteverdespa.com	<br>						
-								</p> 
-							</td>
-							<td>
-								<p>
-Mr. MARCELLO CICALO  <br>
-Director of Sales & Marketing<br>
-Chia Laguna • Fonteverde<br>
-Bagni di Pisa • Grotta Giusti<br>
-marcello.cicalo@ihchotels.it<br><br>
- 
- 
 
-Reservation Office<br>
-eleonora.bellini@ihchotels.it<br>
-loredana.tamburrelli@ihchotels.it<br>
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

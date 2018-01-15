@@ -67,30 +67,7 @@
 В 2010 году Grotta Giusti выиграл престижный при «Spa Finer 2010 readers' choice aword» и попал в десятку «Лучших отелей на термальных источниках", благодаря целебным свойствам вод.
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Grotta Giusti <br>
-Via Grottagiusti, 1411<br>
-51015 Monsummano terme (PT)<br>
-Tuscany - Italy <br>
-Tel. +39 0572 90771<br>
-Fax +39 0572 9077200 <br>
-www.grottagiustispa.com	<br>
-								</p> 
-							</td>
-							<td>
-								<p>
-Mr. MARCELLO CICALO  <br>
-Director of Sales & Marketing<br>
-Chia Laguna • Fonteverde<br>
-Bagni di Pisa • Grotta Giusti<br>
-marcello.cicalo@ihchotels.it	
-								</p>
-							</td>
-						</tr>
-						</table>
+
 					</div>
 					
 					<div class="this count2">

@@ -57,53 +57,7 @@
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Hotel du Cap-Eden-Roc<br>
-Boulevard JF Kennedy 06601<br>
-Antibes FRANCE<br>
-Tel :  +33 4 93 61 39 01<br>
-Fax : +33 4 93 67 76 04<br>
-www.hotel-du-cap-eden-roc.com<br><br>
 
-
-Olivia Pare<br>
-Head of Sales<br>
-Olivia.Pare@oetkercollection.com<br>
-Tel.:+33 4 92 93 32 33<br><br>
-
-Mr. Brice Kemper<br>
-Rooms Division Manager<br>
-Tel :  +33 4 93 61 39 01<br>
-Fax : +33 4 93 67 76 04<br>
-Brice.Kemper@oetkercollection.com
-
-								</p> 
-							</td>
-							<td>
-								<p>
-Mr. Philippe Perd<br>
-General Manager<br>
-Tel :  +33 4 93 61 39 01<br>
-Fax : +33 4 93 67 76 04<br>
-direction.hdcer@oetkercollection.com<br><br>
-
-Mrs. Julie Debas<br>
-Regional Head of Reservations<br>
-Tel :  +33 4 93 61 39 01<br>
-Fax : +33 4 93 67 13 83<br>
-Julie.Debas@oetkercollection.com<br><br>
-
-Reservations Department<br>
-Tel :  +33 4 93 61 39 01<br>
-Fax : +33 4 93 67 76 04<br>
-Reservations.hdcer@oetkercollection.com	
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

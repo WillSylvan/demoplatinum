@@ -55,34 +55,7 @@ Fregate Island Private – это захватывающая дух красот
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-							Fregate Island Private<br>
-							P.O. Box 330<br>
-							Victoria, Mahé<br>
-							Republic of Seychelles<br>
-							Tel: +248 4 670 100<br>
-							Fax: +248 4 670 900<br>
-							www.fregate.com<br><br>
 
-							Reservations Fregate Island Private<br>
-							Tel: +27 21 55 69 98 4   <br>
-							Fax: +27 88 02 15 56 99 84  <br>
-							reservations@fregate.com<br><br>
-
-
-							Mrs Manuela Busch<br>
-							Head of Sales & Marketing<br>
-							Tel: +49 722 19 00 831<br>
-							Fax: +49 722 19 00 834<br>
-							manuela.busch@brenners.com
-								</p> 
-							</td>
-
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

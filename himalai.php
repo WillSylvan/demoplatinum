@@ -94,7 +94,7 @@ Asia Spa (India) awards - Hall of Fame Award "Best Destination Spa" category	<br
 						
 						</p>
 						
-						<table width="100%">
+						<!--<table width="100%">
 						<tr>
 							<td><p>Palace Estate, Narendra Nagar<br>
 Tehri Garhwal,<br>
@@ -117,7 +117,7 @@ maheshn@ihhrhospitality.com<br>
 Tel :  +91 11 2656 8888</p>
 							</td>
 						</tr>
-						</table>
+						</table>-->
 					</div>
 					
 					<div class="this count2">

@@ -57,32 +57,7 @@
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Hotel Palace Merano -<br>
-Espace Henri Chenot<br>
-Via Cavour, 2/4 - 39012<br>
-Merano (BZ) - Alto Adige<br>
-Tel +39 0473 271000<br>
-Fax +39 0473 271100<br>
-www.henrichenot.com<br>
-www.palace.it							
-								</p> 
-							</td>
-							<td>
-								<p>
-Maximilian Newiger<br>
-General Manager<br>
-maximilian.newiger@palace.it<br><br>
 
-Reservation Office<br>
-info@palace.it
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

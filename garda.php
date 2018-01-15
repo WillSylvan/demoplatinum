@@ -62,25 +62,7 @@
  
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Viale Carducci, 10<br>
-38066 Riva del Garda (TN)<br>
-Tel: +39 0464 021899<br>
-Fax: +39 0464 021900<br>
-info@lido-palace.it<br>
-www.lido-palace.it
-								</p> 
-							</td>
-							<td>
-								<p>
-								
-								</p>
-							</td>
-						</tr>
-						</table>
+
 					</div>
 					
 					<div class="this count2">

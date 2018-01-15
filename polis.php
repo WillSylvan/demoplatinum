@@ -66,30 +66,7 @@ Conde Nast Traveller 2009 Readers Travel Awards - One of The Best Spas, Overseas
 Tatler 2009 Travel Guide - 101 Best Hotels						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Rigenas Road 40,<br>
-8852 Neo Chorio,<br>
-Cyprus<br>
-Tel: +357 26  888 000<br>
-Fax: +357 26 322 900<br>
-www.thanoshotels.com	<br>						
-								</p> 
-							</td>
-							<td>
-								<p>
-Mrs. Stephanie Christodoulidou<br>
-Reservations Manager<br>
-res1.anassa@thanoshotels.com<br><br>
-Mr. Panayiotis Kyprianou<br>
-Business Development Manager<br>
-bdm@thanoshotels.com								
-								</p>
-							</td>
-						</tr>
-						</table>
+
 					</div>
 					
 					

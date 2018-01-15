@@ -63,26 +63,7 @@ Spa Центр Espace  - это 2700 кв м, на которых располо
 SPA Центр Espace получил в 2012 престижную премию SPA Finder как "Лучший SPA в Италии"
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Argentario Resort Golf & SPA<br>
-Via Acquedotto Leopoldino snc<br><br>
-58018 Porto Ercole (GR)<br>
-Phone +39 0564 810 292<br>
-Laurent Coppini - Senior Sales Manager<br>
-info@argentarioresort.it<br>
-http://www.argentariogolfresortspa.it
-								</p> 
-							</td>
-							<td>
-								<p>
-								
-								</p>
-							</td>
-						</tr>
-						</table>
+
 					</div>
 					
 					<div class="this count2">

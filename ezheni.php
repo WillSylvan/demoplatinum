@@ -57,40 +57,7 @@
 В 2017 году Агентство по развитию туризма во Франции (ATOUT FRANCE) присудило почетное звание «Паласа» отелю Les Prés d’Eugénie, который с 1968 входит во всемирно известную Ассоциацию Relais & Châteaux.	
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-LES PRES D'EUGENIE 40320<br>
-Eugenie Les Bains France<br>
-Tel. +33 5 58 05 05 05 / 06 07<br>
-Fax +33 5 58 51 10 10<br>
-www.michelguerard.com<br><br>
 
-Mrs. Ysabelle Marty<br>
-Assistant of General Manager<br>
-direction@michelguerard.com<br>
-Tel. +33 5 58 05 06 04<br>
-Fax +33 5 58 51 10 10
-
-								</p> 
-							</td>
-							<td>
-								<p>
-Mr. Emmanuel Perignon<br>
-Deputy General Manager<br>
-eperignon@michelguerard.com<br>
-Tel. +33 5 58 05 06 30<br><br>
-
-Mrs. Geraldine Lalanne<br>
-Head of Reservation Department<br>
-reservation@michelguerard.com<br>
-Tel.+33 5.58.05.06.07<br>
-Fax +33 5 58 51 10 10<br>
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

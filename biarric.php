@@ -55,33 +55,7 @@ Hotel Du Palais - счастливое место. Сюда невозможно
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Hotel du Palais<br>
-1, Avenue de l'Imperatrice<br>
-64200 - Biarritz - FRANCE<br>
-Tel : +33 5 59 41 64 00<br>
-Fax : +33 5 59 24 36 84<br>
-www.hotel-du-palais.com<br>
-								</p> 
-							</td>
-							<td>
-								<p>
-Mrs. Valerie Galan<br>
-Sales Manager<br>
-Tel : +33 5 59 41 64 00<br>
-Fax : +33 5 59 24 36 84<br>
-vgalan@hotel-du-palais.com<br><br>
- 	Reservation Department<br>
-Tel : +33 5 59 41 64 46<br>
-Fax : +33 5 59 41 67 99<br>
-reception@hotel-du-palais.com<br>
-								</p>
-							</td>
-						</tr>
-						</table>
+
 					</div>
 					
 					<div class="this count2">

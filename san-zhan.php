@@ -56,28 +56,7 @@
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-F97133 ST BARTHÉLEMY, ST JEAN BAY<br>
-FRENCH WEST INDIES<br>
-TEL:+ 590 590 29 79 99<br>
-FAX.+ 590 590 27 88 37<br>
-reservations.edenrock@oetkercollection.com<br>
-www.edenrockhotel.com	<br>						
-								</p> 
-							</td>
-							<td>
-								<p>
-Mareike Hermann<br>
-Head of Sales & Reservations<br>
-Mareike.Hermann@oetkercollection.com<br>
-Tel.: + 590 (0) 590 29 79 99								
-								</p>
-							</td>
-						</tr>
-						</table>
+
 					</div>
 					
 					<div class="this count2">

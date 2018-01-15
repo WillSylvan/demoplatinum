@@ -67,38 +67,7 @@ Cентябрь: Отель признан "Best hotel in Europe" по верс�
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-112, rue du Faubourg Saint-Honore,<br>
-75008 Paris<br>
-Tel. +33 1 53 43 43 00<br>
-Fax. +33 1 53 43 43 01<br>
-www.lebristolparis.com<br><br>
 
-Thomas Mattei<br>
-Sales & Marketing Coordinator<br>
-Thomas.Mattei@oetkercollection.com<br>
-Tel.: +33 1 53 43 43 58							
-								</p> 
-							</td>
-							<td>
-								<p>
-Reservation Department<br>
-Reservations.lebristolparis@oetkercollection.com<br>
-Tel. +33 1 53 43 43 25<br>
-Fax. +33 1 53 43 43 26<br><br>
-
-Mr. François-Xavier Quéré<br>
-Sales Manager<br>
-FrancoisXavier.Quere@oetkercollection.com<br>
-Tel: +33 (0)1 53 43 44 02<br>
-Fax: +33 (0)1 53 43 43 95								
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

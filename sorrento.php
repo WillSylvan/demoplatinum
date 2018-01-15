@@ -56,25 +56,7 @@
 Отель Grand Hotel Excelsior Vittoria является членом известной цепочки The Leading Hotels of the World, Virtuoso, участником общества "Locali Storici d'Italia", членом ассоциации "Musei dell'ospitalita'". В 2001, 2002 и 2003 году отель Excelsior Vittoria и ресторан Vittoria были награждены премией "Five star Dimond Award", учрежденной американской Академией гостеприимства - за высокое качество обслуживания и безупречный стиль в отеле и ресторане. В 2004 году отель отпраздновал свое 170-летие и был награжден престижной премией " Best resort in Europe", и получил французскую награду "Prix Villegiature" в 2005 году.						
 						
 						</p>
-						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-		Grand Hotel Excelsior Vittoria<br>
-Piazza Tasso, 34 - 80067 Sorrento<br>
-Tel. +39-081 8777 827<br>
-Fax +39-081 877 849<br>
-www.exvitt.it		<br>			
-								</p> 
-							</td>
-							<td>
-								<p>
-Reservation: exvitt@exvitt.it								
-								</p>
-							</td>
-						</tr>
-						</table>
+
 					</div>
 					
 					<div class="this count2">

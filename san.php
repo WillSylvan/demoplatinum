@@ -55,7 +55,7 @@ Alàbriga Hotel & Home Suites унаследовал имя от своего о
 						
 						</p>
 						
-						<table width="100%">
+						<!--<table width="100%">
 						<tr>
 							<td>
 								<p>
@@ -75,7 +75,7 @@ margarita.alijeva@hotelalabriga.com
 								</p>
 							</td>
 						</tr>
-						</table>
+						</table>-->
 					</div>
 					
 					<div class="this count2">

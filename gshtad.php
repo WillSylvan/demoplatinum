@@ -57,37 +57,7 @@ Park Gstaad знаменит высочайшим качеством обслу�
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Park Gstaad<br>
-CH - 3780 Gstaad, Switzerland<br>
-Tel: + 41 33 748 9800<br>
-Fax: +41 33 748 9808<br>
-www.parkgstaad.ch<br><br>
 
-Reservation<br>
-reservation@parkgstaad.ch<br><br>
-
-Chiara Bergamin<br>      
-Front Office Agent<br>
-fom@parkgstaad.ch	<br>						
-								</p> 
-							</td>
-							<td>
-								<p>
-Natacha Ancey<br>
-Director of Sales<br>
-dos@parkgstaad.ch<br><br>
-
-Mr. Abel Moreira da Silva<br>
-Chef concierge<br>
-concierge@parkgstaad.ch							
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

@@ -59,7 +59,7 @@
 						
 						</p>
 						
-						<table width="100%">
+						<!--<table width="100%">
 						<tr>
 							<td><p>Philharmonikerstrasse 4<br>
 									A - 1010 Wien, Austria<br>
@@ -76,7 +76,7 @@
 								<a>TZ@sacher.com</a></p>
 							</td>
 						</tr>
-						</table>
+						</table>-->
 					</div>
 					
 					<div class="this count2">

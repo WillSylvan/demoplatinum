@@ -56,25 +56,6 @@
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-S.S. Amalfitana, 9<br>
-84011 AMALFI (SA) - ITALY<br>
-tel. +39.089.871012 - fax. +39.089.871351<br><br>
-
-http://www.hotelsantacaterina.it<br>
-Email: info@hotelsantacaterina.it							
-								</p> 
-							</td>
-							<td>
-								<p>
-								
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

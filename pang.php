@@ -61,23 +61,7 @@ INIALA – приватная резиденция, состоящая из 10 �
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-							Iniala Beach House<br>
-							Tel: +66 (0)76 429 411<br>
-							Fax: +66 (0)76 451 477<br>
-							Iniale Natai: 40/14 Moo6, Khokkloi,<br>
-							Takuatong, Phang Nga<br>
-							82140 Thailand. <br><br>
 
-							WWW.INIALA.COM
-								</p> 
-							</td>
-
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

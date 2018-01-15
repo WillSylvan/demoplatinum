@@ -55,30 +55,7 @@ Bagni di Pisa,  расположенный среди вековых олив,  
 К услугам гостей отеля SPA-центр, предлагающий восточные и эстетические процедуры, а также средиземноморские терапии на основе меда, оливкового масла и морской соли; опытные доктора посоветуют, какой тип питания подходит именно Вам  и составят график купаний в открытом и закрытом термальных бассейнах, наполняющихся водой из подземного горячего источника (38 С).  У гостей отеля есть замечательная возможность посетить близлежащие города - Пизу и Лукку, Сиену и Флоренцию, а вечером отправиться в знаменитые ночные клубы побережья. 
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Bagni di Pisa<br>
-Largo P.Shelley, 18  - 56017 San Giuliano Terme (Pi)<br>
-Tel: + 39 050 88501<br>
-Fax: +39 050 8850401<br>
-info@bagnidipisa.com<br>
-http://www.bagnidipisa.com/
-								</p> 
-							</td>
-							<td>
-								<p>
-Mr. MARCELLO CICALO  <br>
-Director of Sales & Marketing<br>
-Chia Laguna • Fonteverde<br>
-Bagni di Pisa • Grotta Giusti<br>
-marcello.cicalo@ihchotels.it
 
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

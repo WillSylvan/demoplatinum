@@ -53,30 +53,7 @@
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
 
-12, Poseidonos Avenue <br>   
-8042 Pafos, Cyprus     <br>  
-Tel.: + 357 26 888 700 <br>  
-Fax: + 357 26 942 818<br>
-www.thanoshotels.com							
-								</p> 
-							</td>
-							<td>
-								<p>
-Mrs. Elena Sivova<br>
-E-commerce Manager<br>
-e-commerce@thanoshotels.com
- 
-
-								
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 									
 					<div class="this count3">

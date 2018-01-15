@@ -63,29 +63,7 @@ Chia Laguna - коллекция отелей в живописном уголк
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Chia Laguna<br>
-09010 Viale Belvedere, loc. Chia,<br>
-Domus De Maria (Ca)<br>
-Ph: +39 070 92393431 - 3204 <br>
-Fax +39 070 923 0144<br>
-www.chialagunaresort.com	<br>						
-								</p> 
-							</td>
-							<td>
-								<p>
-Mr. MARCELLO CICALO  <br>
-Director of Sales & Marketing<br>
-Chia Laguna • Fonteverde<br>
-Bagni di Pisa • Grotta Giusti<br>
-marcello.cicalo@ihchotels.it	<br>							
-								</p>
-							</td>
-						</tr>
-						</table>
+
 					</div>
 					
 					<div class="this count2">

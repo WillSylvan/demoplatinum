@@ -64,30 +64,7 @@ L’Apogée Courchevel имеет прямой частный доступ к т
 						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Jardin Alpin - 73120 - Courchevel 1850, France<br>
-Tel. +33 (0)4 79 04 01 04<br>
-http://www.lapogeecourchevel.com<br><br>
 
-Reservation<br>
-Tel. +33 4 92 93 32 40<br>
-Fax. +33 4 93 67 13 83<br>
-Reservations.apg@oetkercollection.com	<br>					
-								</p> 
-							</td>
-							<td>
-								<p>
-Olivia Pare<br>
-Head of Sales<br>
-Olivia.Pare@oetkercollection.com<br>
-Tel.:+33 4 92 93 32 33<br>							
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

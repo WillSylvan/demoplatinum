@@ -52,7 +52,7 @@
 Brenners Park-Hotel & SPA - это стиль жизни в гармонии с природой. Концепция Brenners SPA-центра основана на опыте известных лечебных центров Европы и Америки, что дает возможность использовать все самое лучшее, что было разработано в области оздоровительных программ в Старом и Новом Свете.
 						</p>
 						
-						<table width="100%">
+						<!--<table width="100%">
 						<tr>
 							<td><p>Schillerstrasse 4-6, 76530 Baden-Baden, Germany<br>
 									Тел.: +49 72 21-9000<br>
@@ -66,7 +66,7 @@ Brenners Park-Hotel & SPA - это стиль жизни в гармонии с 
 								Mr. Edmond Platz - Reservation</p>
 							</td>
 						</tr>
-						</table>
+						</table>-->
 					</div>
 					
 					<div class="this count2">

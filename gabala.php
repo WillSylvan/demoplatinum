@@ -66,10 +66,6 @@
 						<br>Chenot Palace Health Wellness Hotel
 						<br>Nohurgishlag, Gabala, Azerbaijan, AZ 3632
 
-						<br><br>Direct Line: +994 502902878<br><br>
-
-						www.chenotpalace.com <br>
-						reservations@chenotpalace.com<br>
 						</p>
 					</div>
 					

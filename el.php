@@ -94,35 +94,7 @@ SHA Wellness Clinic была основана Альфредо Батальер�
 <br>“Best Gastronomy Trend of Spain” Millesime, 2009						
 						</p>
 						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Verderol 5 El Albir<br>
-03581 Alicante Spain<br>
-Tel +34 966 811 199<br>
-Fax +34 966 864 528<br>
-www.shawellnessclinic.com<br><br>
 
-Wellness Clinic & SPA<br>
-spares@shawellnessclinic.com						
-								</p> 
-							</td>
-							<td>
-								<p>
-Mr. Alejandro Bataller Pineda<br>
-Chief Sales & Marketing Officer<br>
-abp@shawellnessclinic.com<br><br>
-
-Reservation<br>
-reservations@shawellnessclinic.com<br><br>
-
-Concierge<br>
-yourconcierge@shawellnessclinic.com							
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">

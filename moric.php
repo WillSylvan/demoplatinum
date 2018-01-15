@@ -59,34 +59,7 @@
 Санкт Мориц – один из самых солнечных курортов в Альпах (320 солнечных дней в году) и известный во всем мире горнолыжный курорт. Но и летом его гостям предоставляются неограниченные возможности активного и познавательного отдыха. Помимо зимнего сезона Декабрь - Март, в течение которого Badrutt’s Palace, несомненно, является одним из самых популярных горнолыжных отелей в мире, он открыт также летом с конца Июня по конец Сентября.						
 						
 						</p>
-						
-						<table width="100%">
-						<tr>
-							<td>
-								<p>
-Via Serlas 27<br>
-7500 St. Moritz Switzerland <br>
-www.badruttspalace.com <br>
-Tel: +41 81 837 1000<br>
-Fax: +41 81 837 2999<br><br>
 
-Mr. Danilo Huss<br>
-Director of Sales <br>
-DHuss@badruttspalace.com	<br>						
-								</p> 
-							</td>
-							<td>
-								<p>
-Mrs. Stefanie Nill<br>
-Reservations@badruttspalace.com<br><br>
-
-Mr. Giuseppe Pesenti<br>
-Head Concierge<br>
-Concierge@badruttspalace.com								
-								</p>
-							</td>
-						</tr>
-						</table>
 					</div>
 					
 					<div class="this count2">
