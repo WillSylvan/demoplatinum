@@ -99,19 +99,7 @@ The Lanesborough расположен в самом центре Лондона,
 <br>Аэропорт Станстед – 72.4 км
 <br>Аэропорт Сити – 12.9 км</p>
 					<p>
-					<b>Трансферы:</b>
-<br><br>Аэропорт Хитроу
-<br>Mercedes S Class or BMW7 – £150
-<br>MPV / Limousine – £155
-<br>Bentley – £355
-<br>Rolls Royce – £410
- 
-<br><br>Аэропорт Гэтвик, Лютон и Станстед
-<br>Mercedes S Class или BMW 7 – £200
-<br>MPV / Limousine – £225
-<br>Bentley – £405
-<br>Rolls Royce – £490
-					</p>
+
 					
 					</div>
 					

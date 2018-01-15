@@ -99,15 +99,7 @@ margarita.alijeva@hotelalabriga.com
 					
 					
 					</p>
-					<p>
-					<b>Трансферы:</b><br>
 
-Из/в аэропорт Барселоны на Mercedes Viano – 250 евро в одну сторону; Mercedes S – 450 евро в одну сторону.<br>
-Из/в аэропорт Жироны на Mercedes Viano - 175 евро в одну сторону; Mercedes S – 300 евро в одну сторону.				
-					
-					
-					
-					</p>
 					
 					</div>
 					
