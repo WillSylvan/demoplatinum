@@ -32,7 +32,7 @@
 					</ul>
 					</div>
 					
-					<div id="footer_4" class="footer_block">
+					<!-- <div id="footer_4" class="footer_block">
 						<h1>Tours</h1>
 					<ul>
 						<li><a href="#tours">Japan</a></li>
@@ -40,7 +40,7 @@
 					</ul>
 					</div>
 					
-					<div id="footer_5" class="footer_block"><h1>Tags</h1></div>
+					<div id="footer_5" class="footer_block"><h1>Tags</h1></div> -->
 					
 					<div id="footer_6" class="footer_block" style="text-align: center;"><h1>Follow</h1>
 					<div class="footer_links" id="facebook"><a href="https://facebook.com"><img src="img/socials/facebook.png" width="15%"></a></div>

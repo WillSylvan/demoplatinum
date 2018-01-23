@@ -62,7 +62,7 @@ input:focus {
     padding-bottom: 2vw;
 }
 .info img{
-	width: 6%;
+	width: 10%;
 }
 .info h1{
 	font-size: 1.8vw;
@@ -148,9 +148,9 @@ input:focus {
     position: relative;
 }
 .photo_1{background-color: white;z-index: 1}
-.photo_2{background-image:url(../img/gal/1.png);}
-.photo_3{background-image:url(../img/gal/2.png);}
-.photo_4{background-image:url(../img/gal/3.png);}
+.photo_2{background-image:url(../img/gal/2.jpg);background-size: cover;background-position: center center;}
+.photo_3{background-image:url(../img/gal/3.png);}
+.photo_4{background-image:url(../img/gal/1.png);}
 .photo_5{background-color: rgb(150, 133, 104);z-index: 1;}
 .photo_6{background-image:url(../img/gal/4.png);}
 .photo_2:hover, .photo_3:hover, .photo_4:hover, .photo_6:hover {
@@ -213,7 +213,7 @@ input:focus {
     position: absolute;
     background-color: rgba(255,255,255,1);
     top: 0;
-    left:0%;
+    right: 0%;
 
 }
 
@@ -228,6 +228,7 @@ input:focus {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+    transform: rotate(180deg);
 
 }
 .hiden_form form {
@@ -468,6 +469,7 @@ input:focus {
 	padding-top: 10vw;
     padding-left: 2vw;
     padding-right: 2vw;
+    text-align: center;
 }
 .text_block h3{
 	font-family: "CormorantGaramond";
@@ -769,8 +771,10 @@ input:focus {
 }
 .it div{
     float: left;
-    height: 35vw;
-	border: none !important;
+    height: 31vw;
+    border-left: none !important;
+    border-right: none !important;
+	border-top: none !important;
 }
 
 

@@ -15,11 +15,12 @@
 		<style>
 		#header{
 			background-image: url(img/background-1.jpg) !important;
-			background-size: cover !important;
-			background-repeat: no-repeat !important;
-			height: 45vw !important;
-			position: relative;
-			background-position-y: 90% !important;
+			    background-size: 111%;
+			    background-repeat: no-repeat !important;
+			    height: 45vw !important;
+			    position: relative;
+			    background-position-y: 2% !important;
+			    background-position-x: 1%;
 		}
 		</style>
 
@@ -113,7 +114,9 @@
 						<h1>Small luxury travel</h1>
 						<p>Туристическая компания класса люкс, которая не оставит вас без
 						впечатлений об отдыхе на высшем уровне. <b>Platinum Travel</b> уважает личность и ее
-						статус - мы знаем всех своих клиентов в лицо.</p>
+						статус - мы знаем всех своих клиентов в лицо и  для нас конфиденциальность
+						превыше всего!</p><br>
+						
 						<button id="toggler_box" class="about_us">О нас</button>
 					</div>
 					
@@ -152,7 +155,7 @@
 					<div class="wrap_2">
 							<a href="poezda.php">
 								<div class="blocks" id="first">
-									<div class="content_info"><h1>Поезда</h1></div>
+									<div class="content_info"><h1>Поезд</h1></div>
 								</div>
 							</a>
 							<a href="golf.php">
@@ -190,6 +193,8 @@
 					</div>
 					
 					<div id="tours" class="wrap_1">
+						<div class="photo photo_4"><div id="trim_3"></div></div>
+						<div class="photo photo_2"></div>
 						<div class="photo photo_1">
 							<div class="text_on_photo">
 								<h2>Япония</h2>
@@ -201,7 +206,7 @@
 								сакура в цвету, великолепные<br>
 								пляжи островов Окинава и<br>
 								древние памятники синтоизма<br></p>
-								<button class="book_a_tour" dir="left">Оформить заказ</button>
+								<a href="http://testplatinum.tk/contact.php"><button class="book_a_tour" dir="left">Оформить заказ</button></a>
 							</div>
 							<div class="hiden_form ">
 								<div class="hidde" dir="left"></div>
@@ -217,9 +222,7 @@
 								</form>
 							</div>
 						</div>
-						<div class="photo photo_2"></div>
 						<div class="photo photo_3"><div id="trim"></div></div>
-						<div class="photo photo_4"><div id="trim_3"></div></div>
 						<div class="photo photo_5">
 							<div class="text_on_photo">
 								<h2><span>Марокко</span></h2>
@@ -231,7 +234,7 @@
 								сабланка, отдых в Эс-Сувейре и<br>
 								Агадире, колоритные базары и<br>
 								восхитительная кухня</span><br></p>
-								<button class="book_a_tour" dir="left">Оформить заказ</button>
+								<a href="http://testplatinum.tk/contact.php"><button class="book_a_tour" dir="left">Оформить заказ</button></a>
 							</div>
 							<div class="hiden_form ">
 								<div class="hidde" dir="left"></div>
@@ -304,6 +307,8 @@
 							<h3>Orient-Express</h3>
 							<div class="text_border"></div>
 							<p>Более 100 лет Orient-Express продолжает свой путь по железным дорогам разных стран, неизменный в стремительном потоке времени. Выдающиеся личности этого столетия, писатели, государственные деятели, звезды кино, просто влюбленные и настоящие эстеты путешествовали поездом, всякий раз попадая под его очарование, все они привносили что-то новое в его характер.</p>
+								<a href="http://testplatinum.tk/contact.php"><button class="book_a_tour" dir="left">Оформить заказ</button></a>
+
 							<!--<p class="signature">-Martin</p>-->
 							</div>
 							</div>	
@@ -324,6 +329,8 @@
 							пляжи островов Окинава и
 							древние памятники синтоизма
 							</p>
+								<a href="http://testplatinum.tk/contact.php"><button class="book_a_tour" dir="left">Оформить заказ</button></a>
+
 							<!--<p class="signature">-Martin</p>-->
 							</div>
 							</div>	
@@ -337,6 +344,8 @@
 							<div class="text_border"></div>
 							<p>В нашей коллекции Вы также найдете отели, находящиеся на морских курортах (Греция, Италия, Кипр, Карибские острова, Сейшельские острова, Таиланд, Франция), или на озерах (Италия, Швейцария) горнолыжные отели - в Куршевеле, Санкт-Морице и Гштааде, городские отели - в Лондоне, Париже, Вене, Цюрихе…
 							</p>
+								<a href="http://testplatinum.tk/contact.php"><button class="book_a_tour" dir="left">Оформить заказ</button></a>
+							
 							<!--<p class="signature">-Martin</p>-->
 							</div>
 							</div>	
@@ -370,9 +379,9 @@
 						</script>	
 					
 					<div class="slogan">
-					<h4>Готовы обсудить всё лично или при встрече!</h4>
+					<h4>Всегда к Вашим услугам!</h4>
 					<div class="text_border_slogan_top"></div>
-					<p>Позвоните или напишите нам и мы поможем вам сделать ваш отдых самым<br> незабываемым</p>
+					<p>Позвоните <b>+371  26131343</b> или напишите нам,<br> и мы поможем вам сделать ваш отдых самым незабываемым!</p>
 					<div class="text_border_slogan_bottom"></div>
 					</div>
 					

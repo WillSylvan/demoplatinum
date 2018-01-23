@@ -17,7 +17,7 @@
 
 
 	if(isset($_POST['submit'])) {
-		$to = 'my.worktest94@gmail.com';
+		$to = 'info@platinumtravel.lv';
 
 		$place = $_POST["place"];
 		$datefrom = $_POST["datefrom"];
@@ -53,10 +53,10 @@
 
 		$email_exp_a = "/[^A-Za-z]/";
 		
-		if(preg_match($email_exp_a,$_POST["place"])) {
-			$error_message_p3 .= '<p class="red">only alphabet!</p>';
-			$errors['place'] = 1;
-		}
+		// if(preg_match($email_exp_a,$_POST["place"])) {
+		// 	$error_message_p3 .= '<p class="red">only alphabet!</p>';
+		// 	$errors['place'] = 1;
+		// }
 
 		if(strlen($place) < 2){
 			$error_message_p2 .= '<p class="red">Name of place is too short.</p>';
@@ -140,7 +140,7 @@
 			'X-Mailer: PHP/' . phpversion();
 
 			if(mail($to, $subject, $message, $headers)){
-				
+				echo "MAIL HAS BEEN SENT";
 				$mailSuccess = true;
 
 			}
@@ -315,8 +315,8 @@
 							
 							<div class="block4_column column">
 							
-								<div class="dropdown">
-									<button class="dropbtn">Оформить заказ</button>
+								<div class="">
+									<a href="contact.php" style="text-transform: uppercase;font-weight: bold;">Оформить заказ</a>
 									<div class="dropdown-content">
 										<a>Name: <span class="inputs"><input type="text" value = "<?php if(isset($_POST['name']) && $errors['name'] == 0){ echo $_POST['name']; } ?>" name="name" class="wpcf7-date" placeholder="name"></span></a>
 										<?php echo ($error_message_n); ?>

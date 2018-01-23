@@ -18,7 +18,7 @@
 		<div id="main">
 			<div id="content">
 			
-				<div id="poezda" class="colormain"><h3>Поезда</h3></div>
+				<div id="poezda" class="colormain"><h3>Поезд</h3></div>
 				
 				<div id="content-in">
 					<div class="flex" id="express">
